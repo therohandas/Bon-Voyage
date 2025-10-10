@@ -23,7 +23,6 @@ export default function Hero(){
                 <a href="/explore" className="px-4 py-2 rounded-full border border-white/20 hover:bg-white/5 transition text-sm font-medium">Explore Destinations</a>
                 <a href="/itinerary-generator" className="px-4 py-2 rounded-full border border-white/20 hover:bg-white/5 transition text-sm font-medium">Plan My Trip</a>
                 <a href="/gallery" className="px-4 py-2 rounded-full border border-white/20 hover:bg-white/5 transition text-sm font-medium">Gallery</a>
-                <a href="/contact" className="px-4 py-2 rounded-full border border-white/20 hover:bg-white/5 transition text-sm font-medium">Contact Us</a>
               </div>
             </div>
           </div>
