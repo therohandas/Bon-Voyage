@@ -72,26 +72,42 @@ export default function Home(){
           </div>
         </section>
 
-        <section id="gallery" className="pt-8 pb-12">
-          <div className="max-w-6xl mx-auto px-4">
-            <div className="flex items-center justify-between">
-              <h2 className="text-2xl font-bold">Travel Gallery</h2>
-              <a href="/gallery" className="text-sm text-indigo-300 hover:underline">See full gallery</a>
-            </div>
-            <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-              {Array.from({length:8}).map((_,i) => (
-                <div key={i} className="relative h-48 bg-gray-800 rounded-lg overflow-hidden border border-white/6">
-                  <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,<svg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'400\\' height=\\'300\\'><rect width=\\'100%\\' height=\\'100%\\' fill=\\'%23343d46\\' /></svg>')] bg-cover bg-center" />
-                  <div className="absolute left-0 right-0 bottom-0">
-                    <div className="bg-gradient-to-t from-black/70 to-black/10 p-3">
-                      <p className="text-sm font-medium">Location {i+1}</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
+        const galleryImages = [
+  'https://plus.unsplash.com/premium_photo-1661964177687-57387c2cbd14?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 870w',
+  'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/c2/5f/39/caption.jpg?w=1200&h=-1&s=1&cx=1920&cy=1080&chk=v1_9a7dafbb03426bb9c2d9',
+  'https://www.visitlondon.com/-/media/images/london/visit/general-london/westminster-at-dusk-london-1280x720.jpg?rev=3c05b9713c4b4405a7ab61aaeba53636&mw=800&hash=061A930869789795BC82B1A060E14562',
+  'https://i.natgeofe.com/k/6eb7149d-9876-40ac-9bf7-d261931ddb56/poland-warsaw.jpg?wp=1&w=1084.125&h=609',
+  'https://cdn.britannica.com/26/84526-050-45452C37/Gateway-monument-India-entrance-Mumbai-Harbour-coast.jpg',
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHwenQCmjlvBs-F6W_HSPTNy591xv52uXmHGsjONkqEK3QwDWmILSF6kgc9LlCIEswPdU&usqp=CAU',
+  'https://www.worldatlas.com/r/w1200/upload/be/27/cd/shutterstock-725596186.jpg',
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNwQyOF2E9JOF4i-2aKMNwHHXH-Qz8AYBdaw&s'
+];
+
+<section id="gallery" className="pt-8 pb-12">
+  <div className="max-w-6xl mx-auto px-4">
+    <div className="flex items-center justify-between">
+      <h2 className="text-2xl font-bold">Travel Gallery</h2>
+      <a href="/gallery" className="text-sm text-indigo-300 hover:underline">See full gallery</a>
+    </div>
+
+    <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+      {galleryImages.map((img, i) => (
+        <div key={i} className="relative h-48 rounded-lg overflow-hidden border border-white/6">
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{ backgroundImage: `url(${img})` }}
+          />
+          <div className="absolute left-0 right-0 bottom-0">
+            <div className="bg-gradient-to-t from-black/70 to-black/10 p-3">
+              <p className="text-sm font-medium"> {i + 1}</p>
             </div>
           </div>
-        </section>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
       </main>
     </div>
   )
