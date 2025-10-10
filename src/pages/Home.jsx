@@ -72,6 +72,7 @@ export default function Home(){
           </div>
         </section>
 
+export default function GallerySection() {
         const galleryImages = [
   'https://plus.unsplash.com/premium_photo-1661964177687-57387c2cbd14?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 870w',
   'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/c2/5f/39/caption.jpg?w=1200&h=-1&s=1&cx=1920&cy=1080&chk=v1_9a7dafbb03426bb9c2d9',
@@ -107,6 +108,8 @@ export default function Home(){
     </div>
   </div>
 </section>
+        );
+}
 
       </main>
     </div>
