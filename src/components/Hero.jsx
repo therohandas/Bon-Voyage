@@ -6,7 +6,7 @@ export default function Hero(){
       <div className="relative h-[70vh] md:h-screen w-full">
         <video
           className="absolute inset-0 w-full h-full object-cover"
-          src="https://videos.pexels.com/video-files/32143673/13705226_2560_1440_24fps.mp4"
+          src="https://videos.pexels.com/video-files/2169880/2169880-uhd_2560_1440_30fps.mp4"
           autoPlay
           muted
           loop
