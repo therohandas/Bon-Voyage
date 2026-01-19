@@ -1,0 +1,104 @@
+{
+    "essentials": [
+        "ID proof (Aadhaar/Passport)",
+        "Travel tickets/bookings",
+        "Cash and cards",
+        "Phone and charger",
+        "Power bank",
+        "Medications (if any)",
+        "First aid kit",
+        "Sunscreen",
+        "Water bottle"
+    ],
+    "clothing": {
+        "summer": [
+            "Light cotton clothes",
+            "Shorts/Capris",
+            "Light colored shirts",
+            "Comfortable sandals",
+            "Sunglasses",
+            "Cap/Hat",
+            "Swimwear (if beach)"
+        ],
+        "monsoon": [
+            "Quick-dry clothes",
+            "Waterproof jacket/Raincoat",
+            "Umbrella",
+            "Waterproof bags",
+            "Extra pair of clothes",
+            "Waterproof footwear"
+        ],
+        "winter": [
+            "Light woolen layers",
+            "Jacket/Sweater",
+            "Full-length pants",
+            "Closed shoes",
+            "Light scarf"
+        ]
+    },
+    "activities": {
+        "beaches": [
+            "Swimwear/Beachwear",
+            "Beach towel",
+            "Flip flops",
+            "Sunscreen (SPF 50+)",
+            "Waterproof phone pouch",
+            "Beach bag"
+        ],
+        "temples": [
+            "Modest clothing (full coverage)",
+            "Comfortable walking sandals",
+            "Socks (for temple floors)",
+            "Small bag for offerings",
+            "Scarf/Dupatta"
+        ],
+        "wildlife": [
+            "Earth-toned clothing",
+            "Full-sleeve shirts",
+            "Long pants",
+            "Sturdy hiking shoes",
+            "Binoculars",
+            "Insect repellent",
+            "Camera with zoom lens"
+        ],
+        "adventure": [
+            "Trekking shoes",
+            "Quick-dry clothes",
+            "Backpack (20-30L)",
+            "Energy bars/Snacks",
+            "Torch/Flashlight",
+            "First aid kit"
+        ],
+        "culture": [
+            "Comfortable walking shoes",
+            "Light layers",
+            "Camera",
+            "Notebook/Journal",
+            "Local currency"
+        ]
+    },
+    "electronics": [
+        "Phone and charger",
+        "Power bank (10000+ mAh)",
+        "Camera (optional)",
+        "Earphones/Headphones",
+        "Travel adapter"
+    ],
+    "toiletries": [
+        "Toothbrush and paste",
+        "Face wash",
+        "Moisturizer",
+        "Lip balm",
+        "Deodorant",
+        "Tissues/Wet wipes",
+        "Hand sanitizer"
+    ],
+    "optional": [
+        "Travel pillow",
+        "Eye mask",
+        "Earplugs",
+        "Books/Kindle",
+        "Playing cards",
+        "Snacks from home"
+    ]
+}

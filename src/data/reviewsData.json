@@ -1,0 +1,125 @@
+{
+    "puri-jagannath-temple": {
+        "reviews": [
+            {
+                "id": 1,
+                "userName": "Rajesh Kumar",
+                "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Rajesh",
+                "rating": 5,
+                "title": "Divine Experience",
+                "text": "The spiritual atmosphere here is unmatched. The evening aarti is a must-see. Be prepared for long queues during peak season, but completely worth it.",
+                "dateVisited": "2025-12-15",
+                "helpful": 45,
+                "images": []
+            },
+            {
+                "id": 2,
+                "userName": "Priya Sharma",
+                "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Priya",
+                "rating": 4,
+                "title": "Crowded but Beautiful",
+                "text": "Beautiful temple with rich history. The crowd management could be better. Try to visit early morning for a peaceful experience.",
+                "dateVisited": "2025-11-20",
+                "helpful": 32,
+                "images": []
+            }
+        ]
+    },
+    "konark-sun-temple": {
+        "reviews": [
+            {
+                "id": 1,
+                "userName": "Amit Patel",
+                "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Amit",
+                "rating": 5,
+                "title": "Architectural Marvel",
+                "text": "The intricate carvings are mindblowing. Hire a guide to understand the history and symbolism. The nearby beach is perfect for sunset.",
+                "dateVisited": "2025-11-25",
+                "helpful": 67,
+                "images": []
+            },
+            {
+                "id": 2,
+                "userName": "Sneha Reddy",
+                "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sneha",
+                "rating": 5,
+                "title": "Must Visit UNESCO Site",
+                "text": "Visited during the Konark Dance Festival - what an amazing experience! The temple at dawn is magical. Carry water and sunscreen.",
+                "dateVisited": "2025-11-02",
+                "helpful": 54,
+                "images": []
+            }
+        ]
+    },
+    "chilika-lake": {
+        "reviews": [
+            {
+                "id": 1,
+                "userName": "Vikram Singh",
+                "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Vikram",
+                "rating": 5,
+                "title": "Bird Lover's Paradise",
+                "text": "Saw Irrawaddy dolphins and thousands of migratory birds! Best experience in December. Book the boat early in the morning for bird watching.",
+                "dateVisited": "2025-12-10",
+                "helpful": 89,
+                "images": []
+            },
+            {
+                "id": 2,
+                "userName": "Meera Iyer",
+                "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Meera",
+                "rating": 4,
+                "title": "Serene Lake Experience",
+                "text": "The boat ride was peaceful and scenic. Nalabana Island is beautiful. Carry binoculars if you're into birdwatching.",
+                "dateVisited": "2025-01-05",
+                "helpful": 43,
+                "images": []
+            }
+        ]
+    },
+    "simlipal-national-park": {
+        "reviews": [
+            {
+                "id": 1,
+                "userName": "Arjun Mehta",
+                "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Arjun",
+                "rating": 5,
+                "title": "Wildlife Heaven",
+                "text": "Spotted a tiger on our second safari! The waterfalls inside the park are breathtaking. Book permits well in advance.",
+                "dateVisited": "2025-02-18",
+                "helpful": 112,
+                "images": []
+            }
+        ]
+    },
+    "gopalpur-on-sea": {
+        "reviews": [
+            {
+                "id": 1,
+                "userName": "Tanvi Desai",
+                "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Tanvi",
+                "rating": 4,
+                "title": "Peaceful Beach Getaway",
+                "text": "Less crowded than Puri. Perfect for a quiet weekend. The lighthouse view is lovely. Seafood here is fresh and delicious!",
+                "dateVisited": "2025-11-30",
+                "helpful": 28,
+                "images": []
+            }
+        ]
+    },
+    "udayagiri-khandagiri-caves": {
+        "reviews": [
+            {
+                "id": 1,
+                "userName": "Kavitha Nair",
+                "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Kavitha",
+                "rating": 4,
+                "title": "Historical Treasure",
+                "text": "Ancient Jain caves with beautiful carvings. Some climbing required - wear comfortable shoes. The hilltop view of Bhubaneswar is great!",
+                "dateVisited": "2025-10-22",
+                "helpful": 35,
+                "images": []
+            }
+        ]
+    }
+}

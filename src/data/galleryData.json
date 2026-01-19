@@ -1,0 +1,53 @@
+{
+    "puri-jagannath-temple": [
+        "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800",
+        "https://images.unsplash.com/photo-1627894006045-3f48a5ffecb9?w=800",
+        "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800",
+        "https://images.unsplash.com/photo-1544634076-40dd5a8f578c?w=800"
+    ],
+    "konark-sun-temple": [
+        "https://images.unsplash.com/photo-1621427642679-a0e4f2ac7a68?w=800",
+        "https://images.unsplash.com/photo-1588416936097-41850ab3d86d?w=800",
+        "https://images.unsplash.com/photo-1545126178-862cdb469409?w=800",
+        "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800"
+    ],
+    "chilika-lake": [
+        "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800",
+        "https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800",
+        "https://images.unsplash.com/photo-1559825481-12a05cc00344?w=800",
+        "https://images.unsplash.com/photo-1432847712612-926caafaa802?w=800"
+    ],
+    "simlipal-national-park": [
+        "https://images.unsplash.com/photo-1549366021-9f761d450615?w=800",
+        "https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=800",
+        "https://images.unsplash.com/photo-1518709766631-a6a7f45921c3?w=800",
+        "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=800"
+    ],
+    "gopalpur-on-sea": [
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+        "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800",
+        "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800",
+        "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?w=800"
+    ],
+    "chandrabhaga-beach": [
+        "https://images.unsplash.com/photo-1520942702018-0862200e6873?w=800",
+        "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?w=800",
+        "https://images.unsplash.com/photo-1476673160081-cf065f9aafb9?w=800"
+    ],
+    "udayagiri-khandagiri-caves": [
+        "https://images.unsplash.com/photo-1548013146-72479768bada?w=800",
+        "https://images.unsplash.com/photo-1585135497273-1a86b09fe70e?w=800",
+        "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800"
+    ],
+    "bhitarkanika-national-park": [
+        "https://images.unsplash.com/photo-1596458397260-2b51c54be9fe?w=800",
+        "https://images.unsplash.com/photo-1560275619-4662e36fa65c?w=800",
+        "https://images.unsplash.com/photo-1571745544682-143ea663cf2c?w=800"
+    ],
+    "default": [
+        "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800",
+        "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800",
+        "https://images.unsplash.com/photo-1508672019048-805c876b67e2?w=800"
+    ]
+}

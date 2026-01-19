@@ -1,0 +1,3358 @@
+[
+  {
+    "id": 1,
+    "slug": "puri-jagannath-temple",
+    "name": {
+      "en": "Puri (Jagannath Temple)",
+      "hi": "पुरी (जगन्नाथ मंदिर)",
+      "fr": "Puri (Temple Jagannath)",
+      "es": "Puri (Templo Jagannath)"
+    },
+    "city": "Puri",
+    "crowd": "Extreme",
+    "rating": 4.6,
+    "image": "https://shorturl.at/6jkpi",
+    "description": "One of India’s Char Dham pilgrimage sites — famous Jagannath Temple and lively Swargadwar beach nearby.",
+    "activities": [
+      "Pilgrimage",
+      "Beach visit",
+      "Local shopping"
+    ],
+    "best_time": "October to March",
+    "timings": "Temple timings vary (early morning to evening)",
+    "entry_fee": "Temple: donation-based / Special darshan paid",
+    "tips": [
+      "Dress modestly for temple visits",
+      "Expect queues during Rath Yatra and festivals"
+    ],
+    "lat": 19.80472,
+    "lng": 85.81833
+  },
+  {
+    "id": 2,
+    "slug": "konark-sun-temple",
+    "name": {
+      "en": "Konark Sun Temple",
+      "hi": "कोणार्क सूर्य मंदिर",
+      "fr": "Temple du Soleil de Konark",
+      "es": "Templo del Sol de Konark"
+    },
+    "city": "Konark",
+    "crowd": "Moderate to High",
+    "rating": 4.7,
+    "image": "https://shorturl.at/LubwT",
+    "description": "13th-century UNESCO World Heritage Sun Temple known for its intricate stone carvings and chariot-like structure.",
+    "activities": [
+      "Heritage walk",
+      "Photography",
+      "Sunset at Chandrabhaga beach"
+    ],
+    "best_time": "October to March",
+    "timings": "9:00 AM - 6:00 PM (typical visiting hours)",
+    "entry_fee": "Monument entry fee (varies for Indians/foreigners)",
+    "tips": [
+      "Hire a guide to understand carvings",
+      "Visit nearby Chandrabhaga Beach for sunset"
+    ],
+    "lat": 19.88740,
+    "lng": 86.09460
+  },
+  {
+    "id": 3,
+    "slug": "bhubaneswar-temple-city",
+    "name": {
+      "en": "Bhubaneswar (Temple City)",
+      "hi": "भुवनेश्वर (मंदिर शहर)",
+      "fr": "Bhubaneswar (Ville des Temples)",
+      "es": "Bhubaneswar (Ciudad de los Templos)"
+    },
+    "city": "Bhubaneswar",
+    "crowd": "Moderate",
+    "rating": 4.4,
+    "image": "https://shorturl.at/guUXG",
+    "description": "Capital city rich in historic temples, archaeology, and modern urban amenities — gateway to Odisha’s cultural circuit.",
+    "activities": [
+      "Temple tours",
+      "Museums",
+      "Local food"
+    ],
+    "best_time": "October to February",
+    "timings": "City open all day; temples have specific hours",
+    "entry_fee": "Varies by site",
+    "tips": [
+      "Combine temple visits with Udayagiri–Khandagiri and museums",
+      "Use local auto-rickshaws for short hops"
+    ],
+    "lat": 20.29606,
+    "lng": 85.82454
+  },
+  {
+    "id": 4,
+    "slug": "lingaraj-temple-bhubaneswar",
+    "name": {
+      "en": "Lingaraj Temple",
+      "hi": "लिंगराज मंदिर",
+      "fr": "Temple Lingaraj",
+      "es": "Templo Lingaraj"
+    },
+    "city": "Bhubaneswar",
+    "crowd": "High",
+    "rating": 4.6,
+    "image": "https://shorturl.at/wIF9A",
+    "description": "Major 11th-century Hindu temple in Bhubaneswar dedicated to Lord Shiva, known for its towering spire and rituals.",
+    "activities": [
+      "Darshan",
+      "Architecture appreciation"
+    ],
+    "best_time": "Morning and evening (less crowded early morning)",
+    "timings": "Temple timings vary",
+    "entry_fee": "Free / donation-based",
+    "tips": [
+      "Observe dress code for temple entry",
+      "Respect rituals and photography rules"
+    ],
+    "lat": 20.23833,
+    "lng": 85.83361
+  },
+  {
+    "id": 5,
+    "slug": "mukteshwar-temple",
+    "name": {
+      "en": "Mukteshwar Temple",
+      "hi": "मुक्तेश्वर मंदिर",
+      "fr": "Temple Mukteshwar",
+      "es": "Templo Mukteshwar"
+    },
+    "city": "Bhubaneswar",
+    "crowd": "Moderate",
+    "rating": 4.5,
+    "image": "https://shorturl.at/0nYvs",
+    "description": "Beautiful small temple famed for its exquisite torana (arched gateway) and sculptural details.",
+    "activities": [
+      "Temple visit",
+      "Photography"
+    ],
+    "best_time": "October to March",
+    "timings": "Daytime visiting hours",
+    "entry_fee": "Free",
+    "tips": [
+      "Look closely at the carved torana",
+      "Combine with nearby Rajarani Temple visits"
+    ],
+    "lat": 20.24270,
+    "lng": 85.84039
+  },
+  {
+    "id": 6,
+    "slug": "rajarani-temple",
+    "name": {
+      "en": "Rajarani Temple",
+      "hi": "राजरानी मंदिर",
+      "fr": "Temple Rajarani",
+      "es": "Templo Rajarani"
+    },
+    "city": "Bhubaneswar",
+    "crowd": "Low to Moderate",
+    "rating": 4.4,
+    "image": "https://tinyurl.com/mrmzkjs5",
+    "description": "A 11th-century sandstone temple noted for its elegant architecture and tranquil surroundings.",
+    "activities": [
+      "Architecture study",
+      "Stroll in gardens"
+    ],
+    "best_time": "Morning",
+    "timings": "Open during day",
+    "entry_fee": "Free",
+    "tips": [
+      "Great spot for quiet photography",
+      "Nearby museum & craft shops worth visiting"
+    ],
+    "lat": 20.24344,
+    "lng": 85.84352
+  },
+  {
+    "id": 7,
+    "slug": "udayagiri-khandagiri-caves",
+    "name": {
+      "en": "Udayagiri & Khandagiri Caves",
+      "hi": "उदयगिरि और खंडगिरि गुफाएँ",
+      "fr": "Grottes Udayagiri et Khandagiri",
+      "es": "Cuevas Udayagiri y Khandagiri"
+    },
+    "city": "Bhubaneswar",
+    "crowd": "Moderate",
+    "rating": 4.5,
+    "image": "https://tinyurl.com/y35wawjr",
+    "description": "Ancient rock-cut Jain caves dating back to the 2nd century BCE with intricate carvings and panoramic views.",
+    "activities": [
+      "Exploration",
+      "History",
+      "Photography"
+    ],
+    "best_time": "Cooler months",
+    "timings": "Daytime visiting hours",
+    "entry_fee": "Small entry fee (varies)",
+    "tips": [
+      "Wear comfortable shoes for steps",
+      "Carry water on hot days"
+    ],
+    "lat": 20.26283,
+    "lng": 85.78603
+  },
+  {
+    "id": 8,
+    "slug": "dhauli-peace-pagoda",
+    "name": {
+      "en": "Dhauli (Peace Pagoda)",
+      "hi": "धौली (पीस पगोडा)",
+      "fr": "Dhauli (Pagode de la Paix)",
+      "es": "Dhauli (Pagoda de la Paz)"
+    },
+    "city": "Dhauli",
+    "crowd": "Low to Moderate",
+    "rating": 4.3,
+    "image": "https://tinyurl.com/2psvpfen",
+    "description": "Historic site on the banks of the Daya River where Emperor Ashoka embraced Buddhism — tranquil stupa and edicts.",
+    "activities": [
+      "Heritage walk",
+      "Meditation",
+      "Photography"
+    ],
+    "best_time": "Early morning",
+    "timings": "All day access; monuments have hours",
+    "entry_fee": "Free",
+    "tips": [
+      "Great sunrise spot",
+      "Respect signage around plaques and edicts"
+    ],
+    "lat": 20.19237,
+    "lng": 85.83949
+  },
+  {
+    "id": 9,
+    "slug": "nandankanan-zoo",
+    "name": {
+      "en": "Nandankanan Zoological Park",
+      "hi": "नन्दनकानन चिड़ियाघर",
+      "fr": "Zoologique Nandankanan",
+      "es": "Zoológico Nandankanan"
+    },
+    "city": "Bhubaneswar",
+    "crowd": "Moderate",
+    "rating": 4.5,
+    "image": "https://tinyurl.com/y56ye4k3",
+    "description": "Large zoo and botanical garden featuring white tigers, aviary, and safari-style enclosures.",
+    "activities": [
+      "Zoo visit",
+      "Boat ride",
+      "Photography"
+    ],
+    "best_time": "Winter mornings",
+    "timings": "9:00 AM - 5:00 PM (approx.)",
+    "entry_fee": "Ticketed entry (varies for adults/children)",
+    "tips": [
+      "Arrive early to beat heat",
+      "Boat ride on lake is popular"
+    ],
+    "lat": 20.39997,
+    "lng": 85.81470
+  },
+  {
+    "id": 10,
+    "slug": "chilika-lake",
+    "name": {
+      "en": "Chilika Lake",
+      "hi": "चिलिका झील",
+      "fr": "Lac Chilika",
+      "es": "Lago Chilika"
+    },
+    "city": "Puri / Chilika",
+    "crowd": "Seasonal",
+    "rating": 4.7,
+    "image": "https://tinyurl.com/2w6xekkr",
+    "description": "Asia’s largest brackish water lagoon, famous for birdlife, fishing villages, and boat cruises.",
+    "activities": [
+      "Dolphin watching",
+      "Birding",
+      "Boat tours"
+    ],
+    "best_time": "November to February (bird season)",
+    "timings": "Boat tours operate during daylight",
+    "entry_fee": "Boat fees vary by trip",
+    "tips": [
+      "Carry binoculars for birdwatching",
+      "Book boat trips from Satapada or Barkul"
+    ],
+    "lat": 19.71700,
+    "lng": 85.31700
+  },
+  {
+    "id": 11,
+    "slug": "satapada-chilika",
+    "name": {
+      "en": "Satapada (Chilika)",
+      "hi": "सातापड़ा (चिलिका)",
+      "fr": "Satapada (Chilika)",
+      "es": "Satapada (Chilika)"
+    },
+    "city": "Satapada",
+    "crowd": "Moderate",
+    "rating": 4.6,
+    "image": "https://tinyurl.com/4re5dahj",
+    "description": "Gateway to Chilika dolphin-watching cruises and scenic lagoon vistas.",
+    "activities": [
+      "Dolphin watching",
+      "Boat ride",
+      "Village visits"
+    ],
+    "best_time": "Winter months",
+    "timings": "Boat timings vary",
+    "entry_fee": "Boat charges apply",
+    "tips": [
+      "Use experienced boat operators for dolphin tours",
+      "Bring sun protection"
+    ],
+    "lat": 19.66944,
+    "lng": 85.44389
+  },
+  {
+    "id": 12,
+    "slug": "nalabana-bird-sanctuary",
+    "name": {
+      "en": "Nalabana Bird Sanctuary",
+      "hi": "नलाबना बर्ड सैंक्चुअरी",
+      "fr": "Sanctuaire d'oiseaux Nalabana",
+      "es": "Santuario de Aves Nalabana"
+    },
+    "city": "Chilika",
+    "crowd": "Seasonal",
+    "rating": 4.8,
+    "image": "https://tinyurl.com/hxth32nn",
+    "description": "A core area of Chilika Lake that attracts thousands of migratory birds during winter.",
+    "activities": [
+      "Birdwatching",
+      "Photography"
+    ],
+    "best_time": "November to February",
+    "timings": "Visit by boat only (seasonal)",
+    "entry_fee": "Boat fees vary",
+    "tips": [
+      "Hire a local guide for best birding spots",
+      "Bring warm clothing in winter"
+    ],
+    "lat": 19.71000,
+    "lng": 85.48000
+  },
+  {
+    "id": 13,
+    "slug": "raghurajpur-artist-village",
+    "name": {
+      "en": "Raghurajpur Artist Village",
+      "hi": "रघुराजपुर आर्टिस्ट विलेज",
+      "fr": "Village des artistes Raghurajpur",
+      "es": "Aldea de Artistas Raghurajpur"
+    },
+    "city": "Puri (Raghurajpur)",
+    "crowd": "Moderate",
+    "rating": 4.5,
+    "image": "https://tinyurl.com/ytrrn4rf",
+    "description": "Traditional crafts village famous for Pattachitra painting, mask-making, and cultural heritage.",
+    "activities": [
+      "Craft shopping",
+      "Workshops",
+      "Cultural shows"
+    ],
+    "best_time": "All year (avoid heavy monsoon)",
+    "timings": "Village open; workshops by appointment",
+    "entry_fee": "Free (workshop fees vary)",
+    "tips": [
+      "Buy directly from artisans to support local economy",
+      "Visit morning craft demos"
+    ],
+    "lat": 19.77600,
+    "lng": 85.83000
+  },
+  {
+    "id": 14,
+    "slug": "pipili",
+    "name": {
+      "en": "Pipili - Odisha",
+      "hi": "पिपिली",
+      "fr": "Pipili ",
+      "es": "Pipili "
+    },
+    "city": "Pipili",
+    "crowd": "Low to Moderate",
+    "rating": 4.2,
+    "image": "https://tinyurl.com/yrh9wamj",
+    "description": "Renowned for appliqué and handicrafts — vibrant market for textiles and traditional goods.",
+    "activities": [
+      "Shopping",
+      "Local commerce",
+      "Photography"
+    ],
+    "best_time": "Evenings and festival seasons",
+    "timings": "Shops open daytime",
+    "entry_fee": "Free",
+    "tips": [
+      "Haggle politely in markets",
+      "Look for traditional umbrellas and torans"
+    ],
+    "lat": 20.12000,
+    "lng": 85.83000
+  },
+  {
+    "id": 15,
+    "slug": "chandrabhaga-beach",
+    "name": {
+      "en": "Chandrabhaga Beach",
+      "hi": "चन्द्रभगा बीच",
+      "fr": "Plage Chandrabhaga",
+      "es": "Playa Chandrabhaga"
+    },
+    "city": "Konark",
+    "crowd": "Moderate",
+    "rating": 4.3,
+    "image": "https://tinyurl.com/2m9n55zr",
+    "description": "A clean, wide beach near Konark, popular for sunrise views and quiet walks.",
+    "activities": [
+      "Beach walk",
+      "Sunrise viewing",
+      "Photography"
+    ],
+    "best_time": "Winter and pleasant months",
+    "timings": "Open all day",
+    "entry_fee": "Free",
+    "tips": [
+      "Good sunrise spot",
+      "Combine with a Konark Sun Temple visit"
+    ],
+    "lat": 19.85452,
+    "lng": 86.07457
+  },
+  {
+    "id": 16,
+    "slug": "chandipur-on-sea",
+    "name": {
+      "en": "Chandipur-on-Sea",
+      "hi": "चंडीपुर-ऑन-सी",
+      "fr": "Chandipur-sur-Mer",
+      "es": "Chandipur-en-el-mar"
+    },
+    "city": "Balasore (Chandipur)",
+    "crowd": "Moderate",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1400&auto=format&fit=crop",
+    "description": "Unique beach where the sea recedes a long distance at low tide, revealing the seabed — fascinating natural phenomenon.",
+    "activities": [
+      "Tide watching",
+      "Beach strolls",
+      "Local cuisine"
+    ],
+    "best_time": "October to March",
+    "timings": "Tide-dependent (check local timings)",
+    "entry_fee": "Free",
+    "tips": [
+      "Check low-tide schedule for best viewing",
+      "Try local seafood specialties"
+    ],
+    "lat": 21.47000,
+    "lng": 87.02000
+  },
+  {
+    "id": 17,
+    "slug": "gopalpur-on-sea",
+    "name": {
+      "en": "Gopalpur-on-Sea",
+      "hi": "गोपालपुर-ऑन-सी",
+      "fr": "Gopalpur-sur-Mer",
+      "es": "Gopalpur-en-el-mar"
+    },
+    "city": "Ganjam (Gopalpur)",
+    "crowd": "Low to Moderate",
+    "rating": 4.3,
+    "image": "https://tinyurl.com/mr4abzha",
+    "description": "Quiet beach town with historic trading port vibes and lovely sunsets — good for relaxed stays.",
+    "activities": [
+      "Beach relaxation",
+      "Fishing village visits"
+    ],
+    "best_time": "Winter months",
+    "timings": "Open all day",
+    "entry_fee": "Free",
+    "tips": [
+      "Stay in a beachside cottage for sunrise views",
+      "Seafood local specialties recommended"
+    ],
+    "lat": 19.27000,
+    "lng": 84.92000
+  },
+  {
+    "id": 18,
+    "slug": "simlipal-national-park",
+    "name": {
+      "en": "Simlipal National Park",
+      "hi": "सिमलीपाल राष्ट्रीय उद्यान",
+      "fr": "Parc national Simlipal",
+      "es": "Parque Nacional Simlipal"
+    },
+    "city": "Mayurbhanj (Simlipal)",
+    "crowd": "Low to Moderate",
+    "rating": 4.6,
+    "image": "https://tinyurl.com/mtf7t69p",
+    "description": "Biodiverse national park with dense forests, wildlife (tigers, elephants), waterfalls and tribal culture.",
+    "activities": [
+      "Safari",
+      "Trekking",
+      "Birding"
+    ],
+    "best_time": "November to February",
+    "timings": "Safari timings vary by zone/permit",
+    "entry_fee": "Park entry and safari fees apply",
+    "tips": [
+      "Book permits in advance",
+      "Follow park rules during safaris"
+    ],
+    "lat": 21.94000,
+    "lng": 86.66250
+  },
+  {
+    "id": 19,
+    "slug": "barehipani-falls",
+    "name": {
+      "en": "Barehipani Falls",
+      "hi": "बरेहिपानी जलप्रपात",
+      "fr": "Chute Barehipani",
+      "es": "Cascada Barehipani"
+    },
+    "city": "Simlipal",
+    "crowd": "Low",
+    "rating": 4.5,
+    "image": "https://tinyurl.com/2s3fes2u",
+    "description": "One of India’s highest waterfalls located in Simlipal, dramatic two-tiered fall amidst forest.",
+    "activities": [
+      "Trekking",
+      "Nature viewing",
+      "Photography"
+    ],
+    "best_time": "Post-monsoon and winter",
+    "timings": "Daytime access via forest trails",
+    "entry_fee": "Park permit required",
+    "tips": [
+      "Guided treks recommended",
+      "Carry water and insect repellent"
+    ],
+    "lat": 21.93276,
+    "lng": 86.38015
+  },
+  {
+    "id": 20,
+    "slug": "bhitarkanika-national-park",
+    "name": {
+      "en": "Bhitarkanika National Park",
+      "hi": "भीतरकनिका राष्ट्रीय उद्यान",
+      "fr": "Parc national Bhitarkanika",
+      "es": "Parque Nacional Bhitarkanika"
+    },
+    "city": "Kendrapara",
+    "crowd": "Moderate",
+    "rating": 4.6,
+    "image": "https://tinyurl.com/4x9rnrht",
+    "description": "Mangrove sanctuary famous for estuarine crocodiles, birdlife and unique riverine ecosystem.",
+    "activities": [
+      "Boat safari",
+      "Birding",
+      "Crocodile spotting"
+    ],
+    "best_time": "November to March",
+    "timings": "Boat safaris operate during day",
+    "entry_fee": "Park and boat fees apply",
+    "tips": [
+      "Use authorized boats; respect wildlife",
+      "Bring binoculars and camera"
+    ],
+    "lat": 20.73070,
+    "lng": 86.86651
+  },
+  {
+    "id": 21,
+    "slug": "gahirmatha-beach",
+    "name": {
+      "en": "Gahirmatha Beach",
+      "hi": "गहिरमठा बीच",
+      "fr": "Plage Gahirmatha",
+      "es": "Playa Gahirmatha"
+    },
+    "city": "Kendrapara",
+    "crowd": "Seasonal",
+    "rating": 4.5,
+    "image": "https://tinyurl.com/bdf8wun6",
+    "description": "Important nesting site for Olive Ridley turtles — protected area with restricted access during nesting season.",
+    "activities": [
+      "Turtle watching (seasonal)",
+      "Nature observation"
+    ],
+    "best_time": "December to April (nesting season)",
+    "timings": "Access restricted during nesting season",
+    "entry_fee": "Regulated access",
+    "tips": [
+      "Observe nesting rules strictly",
+      "Join guided conservation tours where available"
+    ],
+    "lat": 20.57000,
+    "lng": 86.84000
+  },
+  {
+    "id": 22,
+    "slug": "daringbadi",
+    "name": {
+      "en": "Daringbadi",
+      "hi": "डारिंगबाड़ी",
+      "fr": "Daringbadi",
+      "es": "Daringbadi"
+    },
+    "city": "Kandhamal",
+    "crowd": "Low to Moderate",
+    "rating": 4.4,
+    "image": "https://tinyurl.com/sfktu9m4",
+    "description": "Hill station in southern Odisha known as the 'Kashmir of Odisha' for pleasant climate and coffee plantations.",
+    "activities": [
+      "Nature walks",
+      "Tea/coffee estate visits",
+      "Photography"
+    ],
+    "best_time": "October to March",
+    "timings": "All day",
+    "entry_fee": "Free",
+    "tips": [
+      "Pack warm clothes for winter mornings",
+      "Roads can be winding — drive carefully"
+    ],
+    "lat": 20.23330,
+    "lng": 84.33330
+  },
+  {
+    "id": 23,
+    "slug": "hirakud-dam",
+    "name": {
+      "en": "Hirakud Dam",
+      "hi": "हिरकुड़ बाँध",
+      "fr": "Barrage Hirakud",
+      "es": "Presa Hirakud"
+    },
+    "city": "Sambalpur",
+    "crowd": "Moderate",
+    "rating": 4.2,
+    "image": "https://tinyurl.com/358duvzs",
+    "description": "One of the world’s longest earthen dams offering panoramic reservoir views and sunset vantage points.",
+    "activities": [
+      "Sightseeing",
+      "Boating (where available)"
+    ],
+    "best_time": "Winter and post-monsoon",
+    "timings": "Daytime access",
+    "entry_fee": "Free / nominal",
+    "tips": [
+      "Visit near sunset for dramatic views",
+      "Combine with Sambalpur sightseeing"
+    ],
+    "lat": 21.48250,
+    "lng": 83.85960
+  },
+  {
+    "id": 24,
+    "slug": "sambalpur-city",
+    "name": {
+      "en": "Sambalpur",
+      "hi": "सम्बलपुर",
+      "fr": "Sambalpur",
+      "es": "Sambalpur"
+    },
+    "city": "Sambalpur",
+    "crowd": "Moderate",
+    "rating": 4.0,
+    "image": "https://tinyurl.com/44hpjs55",
+    "description": "Historic city known for Hirakud Dam, textiles (Sambalpuri sarees), and regional culture.",
+    "activities": [
+      "Textile shopping",
+      "Temple visits"
+    ],
+    "best_time": "October to March",
+    "timings": "City attractions during day",
+    "entry_fee": "Varies",
+    "tips": [
+      "Explore local markets for Sambalpuri handlooms",
+      "Try regional cuisine"
+    ],
+    "lat": 21.46480,
+    "lng": 83.97070
+  },
+  {
+    "id": 25,
+    "slug": "debrigarh-wildlife-sanctuary",
+    "name": {
+      "en": "Debrigarh Wildlife Sanctuary",
+      "hi": "देबरीगढ़ वन्यजीव अभयारण्य",
+      "fr": "Sanctuaire de Debrigarh",
+      "es": "Santuario Debrigarh"
+    },
+    "city": "Bargarh/Burla area",
+    "crowd": "Low",
+    "rating": 4.3,
+    "image": "https://tinyurl.com/6tj4p742",
+    "description": "Protected reserve near Hirakud with woodland, wildlife and seasonal waterfalls.",
+    "activities": [
+      "Trekking",
+      "Wildlife spotting"
+    ],
+    "best_time": "Winter",
+    "timings": "Daytime access",
+    "entry_fee": "Permit/entry fee",
+    "tips": [
+      "Carry insect repellent",
+      "Best enjoyed with local guide"
+    ],
+    "lat": 21.26300,
+    "lng": 83.54300
+  },
+  {
+    "id": 26,
+    "slug": "satkosia-gorge",
+    "name": {
+      "en": "Satkosia Gorge / Tiger Reserve",
+      "hi": "सातकोसिया ग्रोव/टाइगर रिज़र्व",
+      "fr": "Gorge de Satkosia",
+      "es": "Garganta Satkosia"
+    },
+    "city": "Angul / Boudh outskirts",
+    "crowd": "Low",
+    "rating": 4.4,
+    "image": "https://tinyurl.com/2spm3cjc",
+    "description": "Mahanadi river gorge with rich flora and fauna; river safaris and scenic cliffs.",
+    "activities": [
+      "River safari",
+      "Birding",
+      "Trekking"
+    ],
+    "best_time": "Winter to early summer (avoid heavy monsoon)",
+    "timings": "River safari timings vary",
+    "entry_fee": "Safari/permit charges apply",
+    "tips": [
+      "Book river safaris in advance",
+      "Carry water and sun protection"
+    ],
+    "lat": 20.72000,
+    "lng": 84.42000
+  },
+  {
+    "id": 27,
+    "slug": "kapilash-temple",
+    "name": {
+      "en": "Kapilash Temple",
+      "hi": "कपिलाश मंदिर",
+      "fr": "Temple Kapilash",
+      "es": "Templo Kapilash"
+    },
+    "city": "Dhenkanal",
+    "crowd": "Moderate",
+    "rating": 4.3,
+    "image": "https://tinyurl.com/yjt5aah5",
+    "description": "Hill shrine dedicated to Lord Shiva offering panoramic views and spiritual atmosphere.",
+    "activities": [
+      "Pilgrimage",
+      "Hiking",
+      "Photography"
+    ],
+    "best_time": "Cool months",
+    "timings": "Temple hours vary",
+    "entry_fee": "Free",
+    "tips": [
+      "Climb early for cooler weather",
+      "Carry water for the steps"
+    ],
+    "lat": 20.85400,
+    "lng": 85.58300
+  },
+  {
+    "id": 28,
+    "slug": "taptapani-hot-springs",
+    "name": {
+      "en": "Taptapani Hot Springs",
+      "hi": "तप्तापानी हॉट स्प्रिंग्स",
+      "fr": "Sources chaudes Taptapani",
+      "es": "Aguas termales Taptapani"
+    },
+    "city": "Ganjam",
+    "crowd": "Low to Moderate",
+    "rating": 4.1,
+    "image": "https://tinyurl.com/3xfan2nb",
+    "description": "Natural hot springs set amid scenic surroundings, popular for relaxation and views.",
+    "activities": [
+      "Soaking",
+      "Sightseeing"
+    ],
+    "best_time": "Winter months",
+    "timings": "Daytime access",
+    "entry_fee": "Nominal",
+    "tips": [
+      "Check local facilities before planning long visits",
+      "Combine with nearby waterfalls if possible"
+    ],
+    "lat": 19.10000,
+    "lng": 84.83330
+  },
+  {
+    "id": 29,
+    "slug": "koraput-region",
+    "name": {
+      "en": "Koraput Region (Jeypore)",
+      "hi": "कोरापुट क्षेत्र (जयपुरे)",
+      "fr": "Région Koraput (Jeypore)",
+      "es": "Región Koraput (Jeypore)"
+    },
+    "city": "Koraput / Jeypore",
+    "crowd": "Low",
+    "rating": 4.4,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Durbar_Mahal_of_Jeypore_Rajabhavana_Palace.jpg",
+    "description": "Tribal landscapes, coffee plantations, waterfalls and rich tribal culture in southern Odisha.",
+    "activities": [
+      "Cultural tours",
+      "Trekking",
+      "Waterfalls"
+    ],
+    "best_time": "October to March",
+    "timings": "All day",
+    "entry_fee": "Varies by attraction",
+    "tips": [
+      "Respect local tribal customs",
+      "Hire local guides for offbeat trails"
+    ],
+    "lat": 18.85400,
+    "lng": 82.56900
+  },
+  {
+    "id": 30,
+    "slug": "duduma-waterfalls",
+    "name": {
+      "en": "Duduma Waterfalls",
+      "hi": "दुदुमा जलप्रपात",
+      "fr": "Chute Duduma",
+      "es": "Cascada Duduma"
+    },
+    "city": "Koraput",
+    "crowd": "Low",
+    "rating": 4.3,
+    "image": "https://tinyurl.com/2h6ens2d",
+    "description": "Spectacular waterfall in the Koraput region surrounded by forested hills.",
+    "activities": [
+      "Trekking",
+      "Nature viewing"
+    ],
+    "best_time": "Post-monsoon to winter",
+    "timings": "Daytime access",
+    "entry_fee": "Free / local charges",
+    "tips": [
+      "Roads may be rough — use a sturdy vehicle",
+      "Best seen after rains"
+    ],
+    "lat": 18.90000,
+    "lng": 82.40000
+  },
+  {
+    "id": 31,
+    "slug": "gupteswar-cave",
+    "name": {
+      "en": "Gupteswar Cave",
+      "hi": "गुप्तेश्वर गुफा",
+      "fr": "Grotte Gupteswar",
+      "es": "Cueva Gupteswar"
+    },
+    "city": "Koraput",
+    "crowd": "Low",
+    "rating": 4.2,
+    "image": "https://tinyurl.com/tzf9tje2",
+    "description": "Popular cave shrine with religious significance and scenic surroundings in the Koraput area.",
+    "activities": [
+      "Pilgrimage",
+      "Cave exploration"
+    ],
+    "best_time": "Cooler months",
+    "timings": "Daytime",
+    "entry_fee": "Free",
+    "tips": [
+      "Carry a torch for darker cave passages",
+      "Respect local rituals"
+    ],
+    "lat": 18.90400,
+    "lng": 82.60000
+  },
+  {
+    "id": 32,
+    "slug": "jeypore-town",
+    "name": {
+      "en": "Jeypore",
+      "hi": "जयपुरे",
+      "fr": "Jeypore",
+      "es": "Jeypore"
+    },
+    "city": "Koraput",
+    "crowd": "Low",
+    "rating": 4.1,
+    "image": "https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2024/01/04/6d2214c676105317ffa2755ec12fc5ef_1000x1000.jpg",
+    "description": "Historic town serving as a hub for exploring the tribal and scenic landscapes of Koraput.",
+    "activities": [
+      "Market visits",
+      "Cultural exploration"
+    ],
+    "best_time": "October to March",
+    "timings": "All day",
+    "entry_fee": "Free",
+    "tips": [
+      "Use Jeypore as a base for nearby waterfalls and tribal villages"
+    ],
+    "lat": 18.85000,
+    "lng": 82.57000
+  },
+  {
+    "id": 33,
+    "slug": "talasari-beach",
+    "name": {
+      "en": "Talasari Beach",
+      "hi": "तलासरी बीच",
+      "fr": "Plage Talasari",
+      "es": "Playa Talasari"
+    },
+    "city": "Balasore",
+    "crowd": "Low",
+    "rating": 4.0,
+    "image": "https://odishatourism.gov.in/content/dam/tourism/home/discover/attractions/beaches/talsari/talsari%20corosal1.jpg",
+    "description": "Quiet beach near Odisha’s northern coast with scenic dunes and fishing hamlets.",
+    "activities": [
+      "Beach walk",
+      "Birding"
+    ],
+    "best_time": "Winter",
+    "timings": "All day",
+    "entry_fee": "Free",
+    "tips": [
+      "Combine with Balasore sightseeing",
+      "Great for solitude and birdlife"
+    ],
+    "lat": 21.73000,
+    "lng": 86.79000
+  },
+  {
+    "id": 34,
+    "slug": "paradeep-port",
+    "name": {
+      "en": "Paradip",
+      "hi": "परदीप",
+      "fr": "Paradeep",
+      "es": "Paradeep"
+    },
+    "city": "Jagatsinghpur / Paradeep",
+    "crowd": "Low to Moderate",
+    "rating": 3.9,
+    "image": "https://tinyurl.com/4nrpjtwf",
+    "description": "Major port town with coastal wetlands and access to nearby beaches and industrial heritage.",
+    "activities": [
+      "Coastal walks",
+      "Fishing villages"
+    ],
+    "best_time": "Winter",
+    "timings": "Port operations vary; public beaches open day",
+    "entry_fee": "Free",
+    "tips": [
+      "Industrial areas restricted — stick to public beaches and wetlands"
+    ],
+    "lat": 20.31600,
+    "lng": 86.64600
+  },
+  {
+    "id": 35,
+    "slug": "cuttack-city",
+    "name": {
+      "en": "Cuttack",
+      "hi": "कटक",
+      "fr": "Cuttack",
+      "es": "Cuttack"
+    },
+    "city": "Cuttack",
+    "crowd": "Moderate",
+    "rating": 4.0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2-barabati-stadium-cuttack-odisha-city-hero.jpg",
+    "description": "Commercial and historic city famous for Barabati Fort, silver filigree work, and vibrant markets.",
+    "activities": [
+      "Markets",
+      "Heritage walks"
+    ],
+    "best_time": "October to March",
+    "timings": "All day",
+    "entry_fee": "Varies",
+    "tips": [
+      "Explore the local silver filigree artisans",
+      "Eat local street food specialties"
+    ],
+    "lat": 20.46250,
+    "lng": 85.88250
+  },
+  {
+    "id": 36,
+    "slug": "laltigiri-ratnagiri-udayagiri",
+    "name": {
+      "en": "Lalitgiri–Ratnagiri–Udayagiri (Buddhist Circuit)",
+      "hi": "ललितगिरि-रत्नागिरि-उदयगिरि",
+      "fr": "Circuit bouddhiste Lalitgiri–Ratnagiri–Udayagiri",
+      "es": "Circuito budista Lalitgiri–Ratnagiri–Udayagiri"
+    },
+    "city": "Jajpur / Cuttack region",
+    "crowd": "Low to Moderate",
+    "rating": 4.4,
+    "image": "https://tinyurl.com/bdeu8ct9",
+    "description": "Important Buddhist archaeological sites with stupas, monasteries and ruins dating back centuries.",
+    "activities": [
+      "Archaeology tourism",
+      "Guided walks"
+    ],
+    "best_time": "Winter months",
+    "timings": "Site visiting hours daytime",
+    "entry_fee": "Site fees may apply",
+    "tips": [
+      "Hire a guide to understand historical context",
+      "Carry water and sun protection"
+    ],
+    "lat": 20.85000,
+    "lng": 86.12000
+  },
+  {
+    "id": 37,
+    "slug": "taratarini-temple",
+    "name": {
+      "en": "Taratarini Temple",
+      "hi": "तरतरिणी मंदिर",
+      "fr": "Temple Taratarini",
+      "es": "Templo Taratarini"
+    },
+    "city": "Ganjam",
+    "crowd": "Moderate",
+    "rating": 4.3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Taratarini_maa.jpg",
+    "description": "Ancient hill shrine on the banks of the Rushikulya river, known for its religious significance and festivals.",
+    "activities": [
+      "Pilgrimage",
+      "Scenic viewing"
+    ],
+    "best_time": "Festivals and winter",
+    "timings": "Temple hours vary",
+    "entry_fee": "Free / donation",
+    "tips": [
+      "Attend during local festivals for cultural atmosphere",
+      "Be prepared for steep steps"
+    ],
+    "lat": 19.20000,
+    "lng": 84.80000
+  },
+  {
+    "id": 38,
+    "slug": "chandaka-elephant-sanctuary",
+    "name": {
+      "en": "Chandaka Elephant Sanctuary",
+      "hi": "चंदाका हाथी अभयारण्य",
+      "fr": "Sanctuaire des éléphants Chandaka",
+      "es": "Santuario de elefantes Chandaka"
+    },
+    "city": "Bhubaneswar outskirts",
+    "crowd": "Low",
+    "rating": 4.2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Chandaka_Forest_and_Elephant_Reserve_01.JPG",
+    "description": "Forest reserve on the outskirts of Bhubaneswar offering elephant sightings, treks and biodiversity.",
+    "activities": [
+      "Safaris",
+      "Nature walks"
+    ],
+    "best_time": "Winter and early spring",
+    "timings": "Safari timings vary",
+    "entry_fee": "Permit/fee for safaris",
+    "tips": [
+      "Book safaris through forest dept.",
+      "Do not approach wildlife closely"
+    ],
+    "lat": 20.25000,
+    "lng": 85.90000
+  },
+  {
+    "id": 39,
+    "slug": "astaranga-beach",
+    "name": {
+      "en": "Astaranga Beach",
+      "hi": "आस्तरंगा बीच",
+      "fr": "Plage Astaranga",
+      "es": "Playa Astaranga"
+    },
+    "city": "Puri/Khorda coast",
+    "crowd": "Low",
+    "rating": 4.0,
+    "image": "https://odishatour.in/wp-content/uploads/2020/12/Astaranga-Sea-Beach-Nimapada-Puri1.jpg",
+    "description": "Quiet coastal village with wide beaches and peaceful sunsets, ideal for low-key beach visits.",
+    "activities": [
+      "Beach strolls",
+      "Village visits"
+    ],
+    "best_time": "Winter",
+    "timings": "All day",
+    "entry_fee": "Free",
+    "tips": [
+      "Best for solitude and sunset photography",
+      "Limited food options, carry snacks"
+    ],
+    "lat": 19.65000,
+    "lng": 85.43000
+  },
+  {
+    "id": 40,
+    "slug": "harishankar-falls",
+    "name": {
+      "en": "Harishankar Falls & Temple",
+      "hi": "हिरिशंकर जलप्रपात और मंदिर",
+      "fr": "Chute Harishankar",
+      "es": "Cascada Harishankar"
+    },
+    "city": "Balangir / Bargarh region",
+    "crowd": "Low",
+    "rating": 4.3,
+    "image": "https://tinyurl.com/h25wku9t",
+    "description": "Scenic waterfall with adjacent temple set in a picturesque forested valley.",
+    "activities": [
+      "Picnic",
+      "Trekking",
+      "Temple visit"
+    ],
+    "best_time": "Post-monsoon to winter",
+    "timings": "Daytime access",
+    "entry_fee": "Free / nominal",
+    "tips": [
+      "Slippery rocks after rains — caution",
+      "Carry water and snacks"
+    ],
+    "lat": 20.45000,
+    "lng": 83.45000
+  },
+  {
+    "id": 41,
+    "slug": "khandadhar-falls",
+    "name": {
+      "en": "Khandadhar Waterfall",
+      "hi": "खण्डाधर जलप्रपात",
+      "fr": "Chute Khandadhar",
+      "es": "Cascada Khandadhar"
+    },
+    "city": "Sundergarh / Keonjhar region",
+    "crowd": "Low",
+    "rating": 4.4,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Khandadhar_Waterfall.jpg",
+    "description": "Impressive waterfall set in forested highlands — offbeat and scenic.",
+    "activities": [
+      "Trekking",
+      "Nature viewing"
+    ],
+    "best_time": "Post-monsoon",
+    "timings": "Daytime",
+    "entry_fee": "Free",
+    "tips": [
+      "Rugged access — best with local guide",
+      "Wear sturdy shoes"
+    ],
+    "lat": 21.50000,
+    "lng": 85.80000
+  },
+  {
+    "id": 42,
+    "slug": "barunei-hills",
+    "name": {
+      "en": "Barunei Hills & Temple",
+      "hi": "बरुनी हिल्स और मंदिर",
+      "fr": "Collines Barunei",
+      "es": "Colinas Barunei"
+    },
+    "city": "Bhubaneswar outskirts",
+    "crowd": "Low to Moderate",
+    "rating": 4.1,
+    "image": "https://tinyurl.com/585ky8ts",
+    "description": "Scenic hill spot with temple and viewpoints close to Bhubaneswar.",
+    "activities": [
+      "Hiking",
+      "Temple visit",
+      "Picnic"
+    ],
+    "best_time": "Morning and winter months",
+    "timings": "Daytime",
+    "entry_fee": "Free",
+    "tips": [
+      "Short hike to the top — nice sunrise spot",
+      "Carry water"
+    ],
+    "lat": 20.25000,
+    "lng": 85.80000
+  },
+  {
+    "id": 43,
+    "slug": "ekamra-kanan",
+    "name": {
+      "en": "Ekamra Kanan (Botanical Garden)",
+      "hi": "एकाम्रा कानन बोटैनिकल गार्डन",
+      "fr": "Ekamra Kanan Jardin botanique",
+      "es": "Ekamra Kanan Jardín Botánico"
+    },
+    "city": "Bhubaneswar",
+    "crowd": "Low to Moderate",
+    "rating": 4.1,
+    "image": "https://tinyurl.com/mpmxnpnp",
+    "description": "Large botanical garden and deer park offering peaceful walks and family outings.",
+    "activities": [
+      "Picnic",
+      "Nature walk"
+    ],
+    "best_time": "Morning",
+    "timings": "Daytime",
+    "entry_fee": "Small fee",
+    "tips": [
+      "Good for family outings and birdwatching",
+      "Play area for kids"
+    ],
+    "lat": 20.28600,
+    "lng": 85.81400
+  },
+  {
+    "id": 44,
+    "slug": "sonapur-subarnapur",
+    "name": {
+      "en": "Sonepur (Subarnapur)",
+      "hi": "सोनपुर (सुबर्णपुर)",
+      "fr": "Sonepur (Subarnapur)",
+      "es": "Sonepur (Subarnapur)"
+    },
+    "city": "Subarnapur",
+    "crowd": "Low to Moderate",
+    "rating": 4.0,
+    "image": "https://tinyurl.com/3cjz4m8w",
+    "description": "Cultural town known for temples, crafts and traditional festivals.",
+    "activities": [
+      "Temple visits",
+      "Craft shopping",
+      "Cultural festivals"
+    ],
+    "best_time": "Festival seasons",
+    "timings": "Daytime",
+    "entry_fee": "Varies",
+    "tips": [
+      "Visit during local fairs to see crafts",
+      "Try local sweets and cuisine"
+    ],
+    "lat": 21.08600,
+    "lng": 83.87000
+  },
+  {
+    "id": 45,
+    "slug": "balasore-town",
+    "name": {
+      "en": "Balasore",
+      "hi": "बालासोर",
+      "fr": "Balasore",
+      "es": "Balasore"
+    },
+    "city": "Balasore",
+    "crowd": "Moderate",
+    "rating": 4.0,
+    "image": "https://tinyurl.com/2v3dn9tm",
+    "description": "Coastal district town with nearby beaches and historical sites.",
+    "activities": [
+      "Beach visits",
+      "Local markets"
+    ],
+    "best_time": "Winter months",
+    "timings": "All day",
+    "entry_fee": "Free",
+    "tips": [
+      "Use as base for Chandipur and Talasari excursions",
+      "Local transport available"
+    ],
+    "lat": 21.49360,
+    "lng": 86.93100
+  },
+  {
+    "id": 46,
+    "slug": "baripada",
+    "name": {
+      "en": "Baripada",
+      "hi": "बरipada",
+      "fr": "Baripada",
+      "es": "Baripada"
+    },
+    "city": "Mayurbhanj",
+    "crowd": "Low",
+    "rating": 4.0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Jagannath_Temple_baripada_1.jpg",
+    "description": "Gateway town to Simlipal and tribal circuits; known for local festivals and markets.",
+    "activities": [
+      "Markets",
+      "Base for Simlipal"
+    ],
+    "best_time": "Winter",
+    "timings": "All day",
+    "entry_fee": "Free",
+    "tips": [
+      "Plan Simlipal excursions from here",
+      "Try local tribal cuisine"
+    ],
+    "lat": 21.93390,
+    "lng": 86.73500
+  },
+  {
+    "id": 47,
+    "slug": "tikarpada-wildlife-sanctuary",
+    "name": {
+      "en": "Tikarpada Wildlife Sanctuary",
+      "hi": "तिकरपाढ़ा वन्यजीव अभयारण्य",
+      "fr": "Sanctuaire Tikarpada",
+      "es": "Santuario Tikarpada"
+    },
+    "city": "Angul/Dhenkanal area",
+    "crowd": "Low",
+    "rating": 4.1,
+    "image": "https://tinyurl.com/4zhmvp33",
+    "description": "Rich biodiversity near the Mahanadi with opportunities for birding and wildlife viewing.",
+    "activities": [
+      "Birding",
+      "Nature walks"
+    ],
+    "best_time": "Winter",
+    "timings": "Daytime",
+    "entry_fee": "Permit/fees may apply",
+    "tips": [
+      "Bring binoculars",
+      "Travel with a local guide for deeper trails"
+    ],
+    "lat": 20.95000,
+    "lng": 84.90000
+  },
+  {
+    "id": 50,
+    "slug": "odisha-state-museum",
+    "name": {
+      "en": "Odisha State Museum",
+      "hi": "ओडिशा स्टेट म्यूज़ियम",
+      "fr": "Musée d'État d'Odisha",
+      "es": "Museo Estatal de Odisha"
+    },
+    "city": "Bhubaneswar",
+    "crowd": "Low to Moderate",
+    "rating": 4.2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Bhubaneswar_State_Museum.jpg",
+    "description": "Major repository of Odisha’s archaeology, art, and cultural artefacts — recommended for history enthusiasts.",
+    "activities": [
+      "Museum visit",
+      "Learning local history"
+    ],
+    "best_time": "All year",
+    "timings": "Museum hours (check local schedule)",
+    "entry_fee": "Museum entry fee (nominal)",
+    "tips": [
+      "Allow 1–2 hours for a proper visit",
+      "Look for guided tours for deeper context"
+    ],
+    "lat": 20.27000,
+    "lng": 85.81000
+  },
+  {
+    "id": 51,
+    "slug": "rushikulya-beach",
+    "name": {
+      "en": "Rushikulya Beach (Olive Ridley)",
+      "hi": "रुषिकुल्या बीच",
+      "fr": "Plage Rushikulya",
+      "es": "Playa Rushikulya"
+    },
+    "city": "Ganjam",
+    "crowd": "Seasonal",
+    "rating": 4.6,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Olive_ridley_sea_turtle.jpg",
+    "description": "Famous nesting site for Olive Ridley turtles with mass 'Arribada' events. Pristine beach with conservation importance.",
+    "activities": [
+      "Turtle watching (seasonal)",
+      "Beach walk",
+      "Nature conservation"
+    ],
+    "best_time": "November to April (nesting season)",
+    "timings": "Regulated during nesting; general access daytime",
+    "entry_fee": "Free (conservation tours may have fees)",
+    "tips": [
+      "Best turtle viewing during January-March",
+      "Maintain distance from nesting turtles",
+      "Join authorized conservation tours"
+    ],
+    "lat": 19.40000,
+    "lng": 85.10000
+  },
+  {
+    "id": 52,
+    "slug": "mangalajodi-wetlands",
+    "name": {
+      "en": "Mangalajodi Wetlands",
+      "hi": "मंगलाजोड़ी वेटलैंड्स",
+      "fr": "Zones humides Mangalajodi",
+      "es": "Humedales Mangalajodi"
+    },
+    "city": "Chilika/Khorda",
+    "crowd": "Moderate",
+    "rating": 4.7,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Birds_at_Mangalajodi.jpg",
+    "description": "Premier birding destination on the Chilika edge with over 300 bird species. Community-led ecotourism success story.",
+    "activities": [
+      "Birding",
+      "Photography",
+      "Boat safari"
+    ],
+    "best_time": "November to February",
+    "timings": "Early morning boat rides recommended",
+    "entry_fee": "Boat fees vary (₹500-1500)",
+    "tips": [
+      "Start before sunrise for best birding",
+      "Hire local boat operators",
+      "Bring binoculars and camera with zoom"
+    ],
+    "lat": 19.88000,
+    "lng": 85.42000
+  },
+  {
+    "id": 53,
+    "slug": "panchalingeswar-temple",
+    "name": {
+      "en": "Panchalingeswar Temple",
+      "hi": "पंचलिंगेश्वर मंदिर",
+      "fr": "Temple Panchalingeswar",
+      "es": "Templo Panchalingeswar"
+    },
+    "city": "Balasore",
+    "crowd": "Moderate",
+    "rating": 4.4,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Panchlingeswar_Temple.jpg",
+    "description": "Unique hill temple with five Shiva lingams naturally bathed by perennial streams. Scenic forest setting.",
+    "activities": [
+      "Pilgrimage",
+      "Trekking",
+      "Rock climbing"
+    ],
+    "best_time": "October to March",
+    "timings": "6:00 AM - 7:00 PM",
+    "entry_fee": "Free",
+    "tips": [
+      "Waterproof bags for electronics near streams",
+      "Combine with Chandipur beach trip",
+      "Wear comfortable shoes for rocky terrain"
+    ],
+    "lat": 21.55000,
+    "lng": 86.80000
+  },
+  {
+    "id": 54,
+    "slug": "deras-dam",
+    "name": {
+      "en": "Deras Dam (Dera Badi)",
+      "hi": "डेरास बांध",
+      "fr": "Barrage Deras",
+      "es": "Presa Deras"
+    },
+    "city": "Sundargarh",
+    "crowd": "Low",
+    "rating": 4.2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Mandira_Dam_Reservoir.jpg/800px-Mandira_Dam_Reservoir.jpg",
+    "description": "Scenic dam with tranquil reservoir surrounded by forested hills. Popular local picnic spot.",
+    "activities": [
+      "Boating",
+      "Picnic",
+      "Photography"
+    ],
+    "best_time": "Winter and post-monsoon",
+    "timings": "Daytime",
+    "entry_fee": "Nominal",
+    "tips": [
+      "Great sunset spot",
+      "Carry own food for picnic",
+      "Watch for wildlife around the reservoir"
+    ],
+    "lat": 22.10000,
+    "lng": 84.90000
+  },
+  {
+    "id": 55,
+    "slug": "rourkela-city",
+    "name": {
+      "en": "Rourkela",
+      "hi": "राउरकेला",
+      "fr": "Rourkela",
+      "es": "Rourkela"
+    },
+    "city": "Sundargarh",
+    "crowd": "Moderate",
+    "rating": 4.0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/BI%C3%A8%C3%A8%C4%A9%E1%B9%A3_Maidan_in_Rourkela.jpg",
+    "description": "Industrial city with modern amenities, serving as gateway to western Odisha's tribal regions and natural attractions.",
+    "activities": [
+      "City tour",
+      "Mall of Rourkela",
+      "Gateway to Mandira Dam"
+    ],
+    "best_time": "October to March",
+    "timings": "All day",
+    "entry_fee": "Free",
+    "tips": [
+      "Good stopover for Sundargarh region exploration",
+      "Known for diverse street food",
+      "Birsa Munda Hockey Stadium nearby"
+    ],
+    "lat": 22.26000,
+    "lng": 84.85000
+  },
+  {
+    "id": 56,
+    "slug": "gandhamardan-hills",
+    "name": {
+      "en": "Gandhamardan Hills",
+      "hi": "गंधमार्दन पहाड़ियाँ",
+      "fr": "Collines Gandhamardan",
+      "es": "Colinas Gandhamardan"
+    },
+    "city": "Bargarh/Balangir",
+    "crowd": "Low",
+    "rating": 4.3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Gandhamardana_hill._03.jpg",
+    "description": "Sacred mountain range known for medicinal plants and spiritual significance. Believed to be part of Hanuman's Sanjeevani epic.",
+    "activities": [
+      "Trekking",
+      "Pilgrimage",
+      "Nature walks"
+    ],
+    "best_time": "October to February",
+    "timings": "Daytime",
+    "entry_fee": "Free",
+    "tips": [
+      "Hire local guide for medicinal plant identification",
+      "Carry water and snacks",
+      "Temples at base and summit"
+    ],
+    "lat": 20.75000,
+    "lng": 82.95000
+  },
+  {
+    "id": 57,
+    "slug": "huma-temple",
+    "name": {
+      "en": "Huma Leaning Temple",
+      "hi": "हुमा झुकता मंदिर",
+      "fr": "Temple penché de Huma",
+      "es": "Templo inclinado de Huma"
+    },
+    "city": "Sambalpur",
+    "crowd": "Low to Moderate",
+    "rating": 4.4,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Leaning_temple_at_huma.jpg/800px-Leaning_temple_at_huma.jpg",
+    "description": "Unique tilted temple on the banks of Mahanadi river. The temple naturally leans like Pisa's tower but remains structurally sound.",
+    "activities": [
+      "Temple visit",
+      "River side walk",
+      "Photography"
+    ],
+    "best_time": "October to March",
+    "timings": "6:00 AM - 8:00 PM",
+    "entry_fee": "Free",
+    "tips": [
+      "Feed the sacred fish (Kudo) in the river",
+      "Stunning during sunset",
+      "Combine with Hirakud Dam trip"
+    ],
+    "lat": 21.47000,
+    "lng": 83.92000
+  },
+  {
+    "id": 58,
+    "slug": "boudh-temple",
+    "name": {
+      "en": "Boudh (Ancient Town)",
+      "hi": "बौध",
+      "fr": "Boudh",
+      "es": "Boudh"
+    },
+    "city": "Boudh",
+    "crowd": "Low",
+    "rating": 4.1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/The_hills_surrounding_Boudh_town.jpg/800px-The_hills_surrounding_Boudh_town.jpg",
+    "description": "Historic town with ancient temples, scenic Mahanadi riverfront, and gateway to Satkosia reserve.",
+    "activities": [
+      "Temple visits",
+      "Riverside walks",
+      "Gateway to Satkosia"
+    ],
+    "best_time": "Winter",
+    "timings": "All day",
+    "entry_fee": "Free",
+    "tips": [
+      "Combine with Satkosia river safari",
+      "Ancient Bhimakand temple nearby",
+      "Local tribal markets on weekends"
+    ],
+    "lat": 20.84000,
+    "lng": 84.32000
+  },
+  {
+    "id": 59,
+    "slug": "onkadeli-tribal-haat",
+    "name": {
+      "en": "Onkadeli Tribal Haat",
+      "hi": "ओनकाडेली ट्राइबल हाट",
+      "fr": "Marché tribal Onkadeli",
+      "es": "Mercado tribal Onkadeli"
+    },
+    "city": "Malkangiri",
+    "crowd": "Seasonal (market days)",
+    "rating": 4.5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Bonda_tribe_at_Donger_weekly_market.jpg/800px-Bonda_tribe_at_Donger_weekly_market.jpg",
+    "description": "Famous weekly tribal market where Bonda and Gadaba tribes gather. Authentic cultural immersion experience.",
+    "activities": [
+      "Cultural photography",
+      "Tribal craft shopping",
+      "Anthropological interest"
+    ],
+    "best_time": "Thursday (market day), October to March",
+    "timings": "Morning to afternoon (Thursdays only)",
+    "entry_fee": "Free",
+    "tips": [
+      "Respect tribal privacy - ask before photographing",
+      "Go with local guide",
+      "Unique silver jewelry and handcrafts available"
+    ],
+    "lat": 17.88000,
+    "lng": 82.08000
+  },
+  {
+    "id": 60,
+    "slug": "machkund-hydroelectric",
+    "name": {
+      "en": "Machkund Dam & Falls",
+      "hi": "मछकुंड बांध और जलप्रपात",
+      "fr": "Barrage Machkund",
+      "es": "Presa Machkund"
+    },
+    "city": "Koraput",
+    "crowd": "Low",
+    "rating": 4.3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Machakund_watarfall.jpg/800px-Machakund_watarfall.jpg",
+    "description": "Scenic hydroelectric dam with beautiful waterfalls on the Machkund river. Shared with Andhra Pradesh border.",
+    "activities": [
+      "Sightseeing",
+      "Picnic",
+      "Photography"
+    ],
+    "best_time": "Post-monsoon and winter",
+    "timings": "Daytime",
+    "entry_fee": "Free",
+    "tips": [
+      "Best views after monsoon when water levels are high",
+      "Remote location - carry provisions",
+      "Combine with Koraput tribal tour"
+    ],
+    "lat": 18.25000,
+    "lng": 82.70000
+  },
+  {
+    "id": 61,
+    "slug": "kuldiha-forest",
+    "name": {
+      "en": "Kuldiha Wildlife Sanctuary",
+      "hi": "कुलडीहा वन्यजीव अभयारण्य",
+      "fr": "Sanctuaire de Kuldiha",
+      "es": "Santuario Kuldiha"
+    },
+    "city": "Balasore",
+    "crowd": "Low",
+    "rating": 4.3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Asian_elephant_-_Kuldiha_Wildlife_Sanctuary.jpg/800px-Asian_elephant_-_Kuldiha_Wildlife_Sanctuary.jpg",
+    "description": "Elephant habitat near Chandipur with dense forests and wildlife. Connected to Simlipal conservation area.",
+    "activities": [
+      "Safari",
+      "Elephant watching",
+      "Nature walks"
+    ],
+    "best_time": "November to February",
+    "timings": "6:00 AM - 5:00 PM",
+    "entry_fee": "Safari fees apply",
+    "tips": [
+      "Book safari in advance",
+      "High chance of elephant sightings",
+      "Combine with Panchalingeswar temple"
+    ],
+    "lat": 21.50000,
+    "lng": 86.60000
+  },
+  {
+    "id": 62,
+    "slug": "kedar-waterfall",
+    "name": {
+      "en": "Kedar Gouri Waterfalls",
+      "hi": "केदार गौरी जलप्रपात",
+      "fr": "Chutes Kedar Gouri",
+      "es": "Cascada Kedar Gouri"
+    },
+    "city": "Rayagada",
+    "crowd": "Low",
+    "rating": 4.2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Waterfall_near_Rayagada%2C_Odisha.jpg/800px-Waterfall_near_Rayagada%2C_Odisha.jpg",
+    "description": "Beautiful waterfall in the scenic hills of southern Odisha. Off-the-beaten-path destination.",
+    "activities": [
+      "Trekking",
+      "Swimming (seasonal)",
+      "Photography"
+    ],
+    "best_time": "Post-monsoon",
+    "timings": "Daytime",
+    "entry_fee": "Free",
+    "tips": [
+      "4WD recommended for access",
+      "Carry water and snacks",
+      "Best after monsoon rains"
+    ],
+    "lat": 19.20000,
+    "lng": 83.40000
+  },
+  {
+    "id": 63,
+    "slug": "ramachandi-beach",
+    "name": {
+      "en": "Ramachandi Beach",
+      "hi": "रामचंडी बीच"
+    },
+    "city": "Konark",
+    "crowd": "Moderate",
+    "rating": 4.3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ramachandi_Beach.jpg/800px-Ramachandi_Beach.jpg",
+    "description": "Beautiful beach at the confluence of Kusabhadra River and Bay of Bengal, named after goddess Ramachandi.",
+    "activities": [
+      "Beach walk",
+      "Temple visit",
+      "Sunset viewing"
+    ],
+    "best_time": "October to March",
+    "timings": "All day",
+    "entry_fee": "Free",
+    "tips": [
+      "Combine with Konark Sun Temple visit",
+      "Ancient Ramachandi temple nearby"
+    ],
+    "lat": 19.86500,
+    "lng": 86.11000
+  },
+  {
+    "id": 64,
+    "slug": "aryapalli-beach",
+    "name": {
+      "en": "Aryapalli Beach",
+      "hi": "आर्यापल्ली बीच"
+    },
+    "city": "Berhampur",
+    "crowd": "Low",
+    "rating": 4.1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Aryapalli_beach.jpg/800px-Aryapalli_beach.jpg",
+    "description": "Serene beach with sand dunes and fishing activities near Berhampur city.",
+    "activities": [
+      "Beach relaxation",
+      "Fishing village visit",
+      "Photography"
+    ],
+    "best_time": "October to February",
+    "timings": "All day",
+    "entry_fee": "Free",
+    "tips": [
+      "Watch traditional fishing",
+      "Less crowded alternative to Gopalpur"
+    ],
+    "lat": 19.30000,
+    "lng": 84.95000
+  },
+  {
+    "id": 65,
+    "slug": "brahmeswara-temple",
+    "name": {
+      "en": "Brahmeswara Temple",
+      "hi": "ब्रह्मेश्वर मंदिर"
+    },
+    "city": "Bhubaneswar",
+    "crowd": "Low to Moderate",
+    "rating": 4.4,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Brahmeswara_Temple_Bhubaneswar.jpg/800px-Brahmeswara_Temple_Bhubaneswar.jpg",
+    "description": "11th century temple with exquisite carvings, one of the finest examples of Kalinga architecture.",
+    "activities": [
+      "Temple visit",
+      "Architecture study",
+      "Photography"
+    ],
+    "best_time": "October to March",
+    "timings": "6:00 AM - 8:00 PM",
+    "entry_fee": "Free",
+    "tips": [
+      "Study the intricate erotic carvings",
+      "Near Lingaraj Temple"
+    ],
+    "lat": 20.24000,
+    "lng": 85.84000
+  },
+  {
+    "id": 66,
+    "slug": "parasurameswara-temple",
+    "name": {
+      "en": "Parasurameswara Temple",
+      "hi": "परशुरामेश्वर मंदिर"
+    },
+    "city": "Bhubaneswar",
+    "crowd": "Low",
+    "rating": 4.5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Parasurameswara_temple_02.jpg/800px-Parasurameswara_temple_02.jpg",
+    "description": "One of the oldest temples in Bhubaneswar (7th century), Nagara-style architecture dedicated to Lord Shiva.",
+    "activities": [
+      "Temple visit",
+      "History exploration"
+    ],
+    "best_time": "All year",
+    "timings": "6:00 AM - 6:00 PM",
+    "entry_fee": "Free",
+    "tips": [
+      "One of the best preserved ancient temples",
+      "ASI protected monument"
+    ],
+    "lat": 20.24100,
+    "lng": 85.83800
+  },
+  {
+    "id": 67,
+    "slug": "vaital-deula",
+    "name": {
+      "en": "Vaital Deula Temple",
+      "hi": "वैताल देउल मंदिर"
+    },
+    "city": "Bhubaneswar",
+    "crowd": "Low",
+    "rating": 4.3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Vaital_Deula_02.jpg/800px-Vaital_Deula_02.jpg",
+    "description": "8th century tantric temple with unique khakhara style roof, dedicated to goddess Chamundi.",
+    "activities": [
+      "Temple visit",
+      "Tantric heritage study"
+    ],
+    "best_time": "All year",
+    "timings": "6:00 AM - 6:00 PM",
+    "entry_fee": "Free",
+    "tips": [
+      "Unique double-storey architecture",
+      "Part of Bhubaneswar temple trail"
+    ],
+    "lat": 20.25500,
+    "lng": 85.83500
+  },
+  {
+    "id": 68,
+    "slug": "gundicha-temple",
+    "name": {
+      "en": "Gundicha Temple",
+      "hi": "गुंडिचा मंदिर"
+    },
+    "city": "Puri",
+    "crowd": "Seasonal",
+    "rating": 4.4,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Gundicha_Temple.jpg/800px-Gundicha_Temple.jpg",
+    "description": "The garden house of Lord Jagannath where deities rest during Rath Yatra. Sacred pilgrimage site.",
+    "activities": [
+      "Pilgrimage",
+      "Rath Yatra viewing"
+    ],
+    "best_time": "July (Rath Yatra)",
+    "timings": "6:00 AM - 9:00 PM",
+    "entry_fee": "Free",
+    "tips": [
+      "Most significant during Rath Yatra",
+      "Peaceful garden surroundings"
+    ],
+    "lat": 19.81000,
+    "lng": 85.82500
+  },
+  {
+    "id": 69,
+    "slug": "chausathi-yogini-temple",
+    "name": {
+      "en": "Chausathi Yogini Temple",
+      "hi": "चौसठ योगिनी मंदिर"
+    },
+    "city": "Hirapur (Bhubaneswar)",
+    "crowd": "Low",
+    "rating": 4.6,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chausathi_Jogini_Mandir_Hirapur_Odisha_1.jpg/800px-Chausathi_Jogini_Mandir_Hirapur_Odisha_1.jpg",
+    "description": "Rare 9th century circular open-air tantric temple with 64 yogini statues. Only 4 such temples exist in India.",
+    "activities": [
+      "Temple visit",
+      "Archaeological interest",
+      "Photography"
+    ],
+    "best_time": "All year",
+    "timings": "Sunrise to sunset",
+    "entry_fee": "Free",
+    "tips": [
+      "Unique hypaethral architecture",
+      "20 km from Bhubaneswar"
+    ],
+    "lat": 20.20000,
+    "lng": 85.77000
+  },
+  {
+    "id": 70,
+    "slug": "joranda-falls",
+    "name": {
+      "en": "Joranda Falls",
+      "hi": "जोरांडा जलप्रपात"
+    },
+    "city": "Simlipal",
+    "crowd": "Low",
+    "rating": 4.5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Joranda_waterfalls.jpg/800px-Joranda_waterfalls.jpg",
+    "description": "150-meter high waterfall in Simlipal National Park, one of the highest in Odisha.",
+    "activities": [
+      "Trekking",
+      "Nature viewing",
+      "Photography"
+    ],
+    "best_time": "November to February",
+    "timings": "Park hours",
+    "entry_fee": "Simlipal entry fee",
+    "tips": [
+      "Best viewed after monsoon",
+      "Combine with Barehipani Falls visit"
+    ],
+    "lat": 21.87000,
+    "lng": 86.55000
+  },
+  {
+    "id": 71,
+    "slug": "badaghagara-waterfall",
+    "name": {
+      "en": "Badaghagara Waterfall",
+      "hi": "बड़ाघघरा जलप्रपात"
+    },
+    "city": "Keonjhar",
+    "crowd": "Low",
+    "rating": 4.2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Badaghagra_waterfall.jpg/800px-Badaghagra_waterfall.jpg",
+    "description": "60-meter waterfall in Keonjhar district, part of scenic Ghaghara river system.",
+    "activities": [
+      "Picnic",
+      "Trekking",
+      "Photography"
+    ],
+    "best_time": "Post-monsoon",
+    "timings": "Daytime",
+    "entry_fee": "Nominal",
+    "tips": [
+      "Combine with Sanaghagara Falls nearby",
+      "Slippery rocks - be careful"
+    ],
+    "lat": 21.58000,
+    "lng": 85.62000
+  },
+  {
+    "id": 72,
+    "slug": "sanaghagara-waterfall",
+    "name": {
+      "en": "Sanaghagara Waterfall",
+      "hi": "सनाघघरा जलप्रपात"
+    },
+    "city": "Keonjhar",
+    "crowd": "Low",
+    "rating": 4.0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Sanaghagra.jpg/800px-Sanaghagra.jpg",
+    "description": "30-meter scenic waterfall near Keonjhar, smaller companion to Badaghagara.",
+    "activities": [
+      "Picnic",
+      "Nature walk"
+    ],
+    "best_time": "October to February",
+    "timings": "Daytime",
+    "entry_fee": "Nominal",
+    "tips": [
+      "Less crowded than Badaghagara",
+      "Good for families"
+    ],
+    "lat": 21.57000,
+    "lng": 85.61000
+  },
+  {
+    "id": 73,
+    "slug": "phurlijharan-waterfall",
+    "name": {
+      "en": "Phurlijharan Waterfall",
+      "hi": "फुर्लीझारण जलप्रपात"
+    },
+    "city": "Kalahandi",
+    "crowd": "Low",
+    "rating": 4.3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Phurlijharan_Waterfall.jpg/800px-Phurlijharan_Waterfall.jpg",
+    "description": "Perennial waterfall in Kalahandi known for multicolored rainbow effect in sunlight.",
+    "activities": [
+      "Trekking",
+      "Photography",
+      "Rainbow viewing"
+    ],
+    "best_time": "Post-monsoon",
+    "timings": "Daytime",
+    "entry_fee": "Free",
+    "tips": [
+      "Morning light creates best rainbow",
+      "Tribal area - respect local customs"
+    ],
+    "lat": 19.70000,
+    "lng": 83.10000
+  },
+  {
+    "id": 74,
+    "slug": "pradhanpat-waterfall",
+    "name": {
+      "en": "Pradhanpat Waterfall",
+      "hi": "प्रधानपत जलप्रपात"
+    },
+    "city": "Deogarh",
+    "crowd": "Low",
+    "rating": 4.2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Pradhanpat_Waterfalls.jpg/800px-Pradhanpat_Waterfalls.jpg",
+    "description": "100-meter waterfall formed by Pradhanpat stream, scenic location in western Odisha.",
+    "activities": [
+      "Trekking",
+      "Picnic",
+      "Photography"
+    ],
+    "best_time": "August to February",
+    "timings": "Daytime",
+    "entry_fee": "Nominal",
+    "tips": [
+      "Best after monsoon rains",
+      "Combine with Deogarh temples"
+    ],
+    "lat": 21.52000,
+    "lng": 84.72000
+  },
+  {
+    "id": 75,
+    "slug": "hadgarh-sanctuary",
+    "name": {
+      "en": "Hadgarh Wildlife Sanctuary",
+      "hi": "हडगढ़ वन्यजीव अभयारण्य"
+    },
+    "city": "Keonjhar",
+    "crowd": "Low",
+    "rating": 4.1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Elephant_at_Hadgard.jpg/800px-Elephant_at_Hadgard.jpg",
+    "description": "Wildlife sanctuary connected to Simlipal ecosystem with elephants, leopards, and diverse birdlife.",
+    "activities": [
+      "Safari",
+      "Bird watching",
+      "Nature walks"
+    ],
+    "best_time": "October to March",
+    "timings": "6:00 AM - 5:00 PM",
+    "entry_fee": "Entry fees apply",
+    "tips": [
+      "Part of elephant corridor",
+      "Book permits in advance"
+    ],
+    "lat": 21.55000,
+    "lng": 86.30000
+  },
+  {
+    "id": 76,
+    "slug": "sunabeda-sanctuary",
+    "name": {
+      "en": "Sunabeda Wildlife Sanctuary",
+      "hi": "सुनाबेड़ा वन्यजीव अभयारण्य"
+    },
+    "city": "Nuapada",
+    "crowd": "Low",
+    "rating": 4.2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Sunabeda_Plateau.jpg/800px-Sunabeda_Plateau.jpg",
+    "description": "Grass-covered plateau sanctuary with canyons and waterfalls, home to leopards, tigers, and gaur.",
+    "activities": [
+      "Safari",
+      "Trekking",
+      "Wildlife photography"
+    ],
+    "best_time": "November to March",
+    "timings": "6:00 AM - 6:00 PM",
+    "entry_fee": "Entry fees apply",
+    "tips": [
+      "Remote location - plan ahead",
+      "Unique plateau landscape"
+    ],
+    "lat": 20.85000,
+    "lng": 82.70000
+  },
+  {
+    "id": 77,
+    "slug": "karlapat-sanctuary",
+    "name": {
+      "en": "Karlapat Wildlife Sanctuary",
+      "hi": "कार्लापट वन्यजीव अभयारण्य"
+    },
+    "city": "Kalahandi",
+    "crowd": "Low",
+    "rating": 4.0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Karlapat_wildlife_sanctuary.jpg/800px-Karlapat_wildlife_sanctuary.jpg",
+    "description": "Rich biodiversity sanctuary in southern Odisha with diverse flora and fauna.",
+    "activities": [
+      "Nature walks",
+      "Bird watching",
+      "Trekking"
+    ],
+    "best_time": "October to March",
+    "timings": "Daytime",
+    "entry_fee": "Entry fees apply",
+    "tips": [
+      "Off-the-beaten-path destination",
+      "Local tribal villages nearby"
+    ],
+    "lat": 19.55000,
+    "lng": 83.25000
+  },
+  {
+    "id": 78,
+    "slug": "khalasuni-sanctuary",
+    "name": {
+      "en": "Khalasuni Wildlife Sanctuary",
+      "hi": "खलासुनी वन्यजीव अभयारण्य"
+    },
+    "city": "Angul",
+    "crowd": "Low",
+    "rating": 4.1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Khalasuni_wildlife_sanctuary.jpg/800px-Khalasuni_wildlife_sanctuary.jpg",
+    "description": "Elephant corridor sanctuary with panoramic greenery, waterfalls, and rich wildlife.",
+    "activities": [
+      "Safari",
+      "Elephant watching",
+      "Nature walks"
+    ],
+    "best_time": "October to February",
+    "timings": "6:00 AM - 5:00 PM",
+    "entry_fee": "Entry fees apply",
+    "tips": [
+      "Important elephant corridor",
+      "Remote but scenic"
+    ],
+    "lat": 21.05000,
+    "lng": 85.10000
+  },
+  {
+    "id": 79,
+    "slug": "ushakothi-sanctuary",
+    "name": {
+      "en": "Ushakothi (Badrama) Wildlife Sanctuary",
+      "hi": "उषाकोठी वन्यजीव अभयारण्य"
+    },
+    "city": "Sambalpur",
+    "crowd": "Low",
+    "rating": 4.0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Ushakothi_wildlife.jpg/800px-Ushakothi_wildlife.jpg",
+    "description": "Elephant corridor sanctuary hosting panthers, wild boars, and diverse reptiles near Sambalpur.",
+    "activities": [
+      "Safari",
+      "Nature walks",
+      "Bird watching"
+    ],
+    "best_time": "November to March",
+    "timings": "6:00 AM - 5:00 PM",
+    "entry_fee": "Entry fees apply",
+    "tips": [
+      "Close to Hirakud Dam",
+      "Good elephant sightings"
+    ],
+    "lat": 21.45000,
+    "lng": 84.15000
+  },
+  {
+    "id": 80,
+    "slug": "baisipalli-sanctuary",
+    "name": {
+      "en": "Baisipalli Wildlife Sanctuary",
+      "hi": "बाइसीपल्ली वन्यजीव अभयारण्य"
+    },
+    "city": "Nayagarh",
+    "crowd": "Low",
+    "rating": 4.1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Baisipalli_wildlife.jpg/800px-Baisipalli_wildlife.jpg",
+    "description": "Sanctuary near Satkosia with leopards, elephants, and diverse avifauna.",
+    "activities": [
+      "Safari",
+      "Bird watching",
+      "Nature walks"
+    ],
+    "best_time": "October to March",
+    "timings": "Daytime",
+    "entry_fee": "Entry fees apply",
+    "tips": [
+      "Near Satkosia Gorge",
+      "Less visited, more pristine"
+    ],
+    "lat": 20.52000,
+    "lng": 84.85000
+  },
+  {
+    "id": 81,
+    "slug": "dagara-beach",
+    "name": {
+      "en": "Dagara Beach",
+      "hi": "डागरा बीच"
+    },
+    "city": "Balasore",
+    "crowd": "Low",
+    "rating": 4.0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Dagara_beach.jpg/800px-Dagara_beach.jpg",
+    "description": "Unspoiled pristine beach in Balasore district, perfect for those seeking solitude.",
+    "activities": [
+      "Beach walk",
+      "Shell collecting",
+      "Sunset viewing"
+    ],
+    "best_time": "October to March",
+    "timings": "All day",
+    "entry_fee": "Free",
+    "tips": [
+      "Very less crowded",
+      "Carry your own food"
+    ],
+    "lat": 21.55000,
+    "lng": 87.00000
+  },
+  {
+    "id": 82,
+    "slug": "beleswar-beach",
+    "name": {
+      "en": "Beleswar Beach",
+      "hi": "बेलेश्वर बीच"
+    },
+    "city": "Balasore",
+    "crowd": "Low",
+    "rating": 4.1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Beleswar_beach.jpg/800px-Beleswar_beach.jpg",
+    "description": "Serene beach at the mouth of Nuanai River with ancient Shiva temple nearby.",
+    "activities": [
+      "Beach walk",
+      "Temple visit",
+      "Fishing village"
+    ],
+    "best_time": "October to February",
+    "timings": "All day",
+    "entry_fee": "Free",
+    "tips": [
+      "Ancient Beleswar temple worth visiting",
+      "Quiet fishing atmosphere"
+    ],
+    "lat": 21.51000,
+    "lng": 87.03000
+  },
+  {
+    "id": 83,
+    "slug": "balighai-beach",
+    "name": {
+      "en": "Balighai Beach",
+      "hi": "बालीघाई बीच"
+    },
+    "city": "Puri",
+    "crowd": "Low",
+    "rating": 4.2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Balighai_Beach.jpg/800px-Balighai_Beach.jpg",
+    "description": "Secluded beach 8 km from Puri, at the mouth of Nuanai river with casuarina forests.",
+    "activities": [
+      "Beach relaxation",
+      "Bird watching",
+      "Picnic"
+    ],
+    "best_time": "October to March",
+    "timings": "All day",
+    "entry_fee": "Free",
+    "tips": [
+      "Much quieter than Puri beach",
+      "Turtle nesting site"
+    ],
+    "lat": 19.85000,
+    "lng": 85.92000
+  },
+  {
+    "id": 84,
+    "slug": "baladevjew-temple",
+    "name": {
+      "en": "Baladevjew Temple",
+      "hi": "बलदेवजी मंदिर"
+    },
+    "city": "Kendrapara",
+    "crowd": "Moderate",
+    "rating": 4.5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Baladevjew_Temple.jpg/800px-Baladevjew_Temple.jpg",
+    "description": "Famous temple dedicated to Lord Balarama (elder brother of Krishna). Important pilgrimage site.",
+    "activities": [
+      "Pilgrimage",
+      "Temple architecture"
+    ],
+    "best_time": "All year",
+    "timings": "6:00 AM - 9:00 PM",
+    "entry_fee": "Free",
+    "tips": [
+      "Only temple in India where Balarama is main deity",
+      "Rath Yatra held here too"
+    ],
+    "lat": 20.72000,
+    "lng": 86.47000
+  },
+  {
+    "id": 85,
+    "slug": "cuttack-chandi-temple",
+    "name": {
+      "en": "Cuttack Chandi Temple",
+      "hi": "कटक चंडी मंदिर"
+    },
+    "city": "Cuttack",
+    "crowd": "Moderate",
+    "rating": 4.3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Cuttack_Chandi_Temple.jpg/800px-Cuttack_Chandi_Temple.jpg",
+    "description": "Ancient temple dedicated to goddess Chandi, the guardian deity of Cuttack city.",
+    "activities": [
+      "Pilgrimage",
+      "Cultural exploration"
+    ],
+    "best_time": "All year",
+    "timings": "5:00 AM - 9:00 PM",
+    "entry_fee": "Free",
+    "tips": [
+      "Very crowded during Durga Puja",
+      "Near Barabati Fort"
+    ],
+    "lat": 20.46000,
+    "lng": 85.88500
+  },
+  {
+    "id": 86,
+    "slug": "barabati-fort",
+    "name": {
+      "en": "Barabati Fort",
+      "hi": "बारबाटी किला"
+    },
+    "city": "Cuttack",
+    "crowd": "Moderate",
+    "rating": 4.2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/2-barabati-stadium-cuttack-odisha-city-hero.jpg/800px-2-barabati-stadium-cuttack-odisha-city-hero.jpg",
+    "description": "Ruins of a 14th-century fort with moat, gateway, and famous cricket stadium nearby.",
+    "activities": [
+      "History exploration",
+      "Cricket stadium visit"
+    ],
+    "best_time": "October to March",
+    "timings": "All day",
+    "entry_fee": "Free",
+    "tips": [
+      "Good view from fort remnants",
+      "Stadium hosts international matches"
+    ],
+    "lat": 20.46500,
+    "lng": 85.87500
+  },
+  {
+    "id": 87,
+    "slug": "silver-city-cuttack",
+    "name": {
+      "en": "Silver Filigree Market (Cuttack)",
+      "hi": "चाँदी फिलिग्री बाजार"
+    },
+    "city": "Cuttack",
+    "crowd": "Moderate",
+    "rating": 4.4,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Silver_filigree_work.jpg/800px-Silver_filigree_work.jpg",
+    "description": "Famous market area for traditional silver filigree (Tarakasi) work - GI tagged Odisha craft.",
+    "activities": [
+      "Shopping",
+      "Craft appreciation",
+      "Cultural experience"
+    ],
+    "best_time": "All year",
+    "timings": "10:00 AM - 8:00 PM",
+    "entry_fee": "Free",
+    "tips": [
+      "Buy authentic filigree jewelry",
+      "Watch artisans at work"
+    ],
+    "lat": 20.46200,
+    "lng": 85.88000
+  },
+  {
+    "id": 88,
+    "slug": "ram-mandir-bhubaneswar",
+    "name": {
+      "en": "Ram Mandir Bhubaneswar",
+      "hi": "राम मंदिर भुवनेश्वर"
+    },
+    "city": "Bhubaneswar",
+    "crowd": "Moderate",
+    "rating": 4.3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/r/r1/Ram_Mandir_Bhubaneswar.jpg/800px-Ram_Mandir_Bhubaneswar.jpg",
+    "description": "Beautiful marble temple dedicated to Lord Rama with idols of Ram, Lakshman, and Sita.",
+    "activities": [
+      "Pilgrimage",
+      "Evening aarti"
+    ],
+    "best_time": "All year",
+    "timings": "5:00 AM - 9:00 PM",
+    "entry_fee": "Free",
+    "tips": [
+      "Ram Navami celebrations are special",
+      "Beautiful evening lighting"
+    ],
+    "lat": 20.28000,
+    "lng": 85.84500
+  },
+  {
+    "id": 89,
+    "slug": "ananta-vasudeva-temple",
+    "name": {
+      "en": "Ananta Vasudeva Temple",
+      "hi": "अनंत वासुदेव मंदिर"
+    },
+    "city": "Bhubaneswar",
+    "crowd": "Low to Moderate",
+    "rating": 4.4,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Ananta_Vasudeva_Temple.jpg/800px-Ananta_Vasudeva_Temple.jpg",
+    "description": "13th century temple dedicated to Lord Krishna (Vishnu), the only Vishnu temple among Bhubaneswar's Shiva temples.",
+    "activities": [
+      "Pilgrimage",
+      "Architecture study"
+    ],
+    "best_time": "All year",
+    "timings": "6:00 AM - 8:00 PM",
+    "entry_fee": "Free",
+    "tips": [
+      "Only temple serving cooked food prasad",
+      "Near Bindusagar Lake"
+    ],
+    "lat": 20.24200,
+    "lng": 85.83300
+  },
+  {
+    "id": 90,
+    "slug": "bindusagar-lake",
+    "name": {
+      "en": "Bindusagar Lake",
+      "hi": "बिंदुसागर झील"
+    },
+    "city": "Bhubaneswar",
+    "crowd": "Moderate",
+    "rating": 4.2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Bindusagar_Lake.jpg/800px-Bindusagar_Lake.jpg",
+    "description": "Sacred lake surrounded by temples, believed to contain water from all holy rivers of India.",
+    "activities": [
+      "Temple circuit walk",
+      "Photography",
+      "Spiritual immersion"
+    ],
+    "best_time": "October to March",
+    "timings": "All day",
+    "entry_fee": "Free",
+    "tips": [
+      "Many temples around the lake",
+      "Part of Lingaraj Temple complex"
+    ],
+    "lat": 20.24100,
+    "lng": 85.83400
+  },
+  {
+    "id": 91,
+    "slug": "kalijai-temple",
+    "name": {
+      "en": "Kalijai Temple",
+      "hi": "कालीजई मंदिर"
+    },
+    "city": "Chilika Lake",
+    "crowd": "Moderate",
+    "rating": 4.3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/k/k1/Kalijai_Temple.jpg/800px-Kalijai_Temple.jpg",
+    "description": "Island temple in Chilika Lake dedicated to goddess Kalijai. Accessible only by boat.",
+    "activities": [
+      "Pilgrimage",
+      "Boat ride",
+      "Sunset viewing"
+    ],
+    "best_time": "October to March",
+    "timings": "6:00 AM - 6:00 PM",
+    "entry_fee": "Boat charges",
+    "tips": [
+      "Makar Sankranti mela is famous",
+      "Combine with dolphin watching"
+    ],
+    "lat": 19.69000,
+    "lng": 85.32000
+  },
+  {
+    "id": 92,
+    "slug": "koilighugar-waterfall",
+    "name": {
+      "en": "Koilighugar Waterfall",
+      "hi": "कोइलीघुगर जलप्रपात"
+    },
+    "city": "Jharsuguda",
+    "crowd": "Low",
+    "rating": 4.1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/k/k2/Koilighugar_waterfall.jpg/800px-Koilighugar_waterfall.jpg",
+    "description": "Horseshoe-shaped waterfall near Jharsuguda, scenic location in western Odisha.",
+    "activities": [
+      "Picnic",
+      "Photography",
+      "Nature walk"
+    ],
+    "best_time": "August to February",
+    "timings": "Daytime",
+    "entry_fee": "Nominal",
+    "tips": [
+      "Best after monsoon",
+      "Less known - peaceful experience"
+    ],
+    "lat": 21.80000,
+    "lng": 84.05000
+  },
+  {
+    "id": 93,
+    "slug": "mayurbhanj-palace",
+    "name": {
+      "en": "Mayurbhanj Palace (Haripur)",
+      "hi": "मयूरभंज महल"
+    },
+    "city": "Baripada",
+    "crowd": "Low",
+    "rating": 4.0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/m/m1/Mayurbhanj_Palace.jpg/800px-Mayurbhanj_Palace.jpg",
+    "description": "Historical palace complex of former Mayurbhanj princely state, now partially in ruins.",
+    "activities": [
+      "History exploration",
+      "Architecture",
+      "Photography"
+    ],
+    "best_time": "October to March",
+    "timings": "Daytime",
+    "entry_fee": "Nominal",
+    "tips": [
+      "Hire local guide for history",
+      "Gateway to Simlipal"
+    ],
+    "lat": 21.93500,
+    "lng": 86.73000
+  },
+  {
+    "id": 94,
+    "slug": "devkund-waterfall",
+    "name": {
+      "en": "Devkund Waterfall",
+      "hi": "देवकुंड जलप्रपात"
+    },
+    "city": "Simlipal",
+    "crowd": "Low",
+    "rating": 4.3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Devkund_waterfall.jpg/800px-Devkund_waterfall.jpg",
+    "description": "Sacred waterfall in Simlipal with natural pool, believed to have healing properties.",
+    "activities": [
+      "Trekking",
+      "Nature bathing",
+      "Pilgrimage"
+    ],
+    "best_time": "November to February",
+    "timings": "Park hours",
+    "entry_fee": "Simlipal entry fee",
+    "tips": [
+      "Trek required to reach",
+      "Combine with Simlipal safari"
+    ],
+    "lat": 21.85000,
+    "lng": 86.50000
+  },
+  {
+    "id": 95,
+    "slug": "gandahati-temple",
+    "name": {
+      "en": "Gandahati Temple",
+      "hi": "गंधाहाटी मंदिर"
+    },
+    "city": "Berhampur",
+    "crowd": "Low to Moderate",
+    "rating": 4.2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/g/g1/Gandahati_temple.jpg/800px-Gandahati_temple.jpg",
+    "description": "Ancient cave temple with monolithic Ganesha carved naturally by water springs.",
+    "activities": [
+      "Pilgrimage",
+      "Cave exploration",
+      "Nature walk"
+    ],
+    "best_time": "All year",
+    "timings": "6:00 AM - 6:00 PM",
+    "entry_fee": "Free",
+    "tips": [
+      "Unique natural formation",
+      "Peaceful atmosphere"
+    ],
+    "lat": 19.32000,
+    "lng": 84.72000
+  },
+  {
+    "id": 96,
+    "slug": "narayani-temple",
+    "name": {
+      "en": "Maa Narayani Temple",
+      "hi": "माँ नारायणी मंदिर"
+    },
+    "city": "Angul",
+    "crowd": "Moderate",
+    "rating": 4.2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/n/n1/Narayani_temple.jpg/800px-Narayani_temple.jpg",
+    "description": "Popular Shakti temple in Angul district, attracts large crowds during Durga Puja.",
+    "activities": [
+      "Pilgrimage",
+      "Festival celebrations"
+    ],
+    "best_time": "October (Durga Puja)",
+    "timings": "5:00 AM - 9:00 PM",
+    "entry_fee": "Free",
+    "tips": [
+      "Famous during Navratri",
+      "Beautiful temple architecture"
+    ],
+    "lat": 20.84000,
+    "lng": 85.10000
+  },
+  {
+    "id": 97,
+    "slug": "leaning-temple-sonepur",
+    "name": {
+      "en": "Subarnameru Temple (Leaning)",
+      "hi": "सुवर्णमेरु मंदिर"
+    },
+    "city": "Sonepur",
+    "crowd": "Low",
+    "rating": 4.1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/s/s1/Subarnameru_temple.jpg/800px-Subarnameru_temple.jpg",
+    "description": "Ancient leaning temple similar to Huma, with unique tilted architecture.",
+    "activities": [
+      "Temple visit",
+      "Architecture study"
+    ],
+    "best_time": "October to March",
+    "timings": "6:00 AM - 6:00 PM",
+    "entry_fee": "Free",
+    "tips": [
+      "Less famous than Huma temple",
+      "Authentic rural experience"
+    ],
+    "lat": 21.08800,
+    "lng": 83.86000
+  },
+  {
+    "id": 98,
+    "slug": "asurgarh-fort",
+    "name": {
+      "en": "Asurgarh Fort",
+      "hi": "असुरगढ़ किला"
+    },
+    "city": "Kalahandi",
+    "crowd": "Low",
+    "rating": 4.0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Asurgarh_fort.jpg/800px-Asurgarh_fort.jpg",
+    "description": "Ancient hill fort ruins in Kalahandi with archaeological significance and panoramic views.",
+    "activities": [
+      "Trekking",
+      "Archaeology",
+      "Photography"
+    ],
+    "best_time": "October to March",
+    "timings": "Daytime",
+    "entry_fee": "Free",
+    "tips": [
+      "Trek required",
+      "ASI excavation site"
+    ],
+    "lat": 19.75000,
+    "lng": 82.75000
+  },
+  {
+    "id": 99,
+    "slug": "belkhandi-waterfall",
+    "name": {
+      "en": "Belkhandi Waterfall",
+      "hi": "बेलकंदी जलप्रपात"
+    },
+    "city": "Kalahandi",
+    "crowd": "Low",
+    "rating": 4.2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Belkhandi_waterfall.jpg/800px-Belkhandi_waterfall.jpg",
+    "description": "Scenic waterfall in tribal Kalahandi region, part of Indo-Gangetic waterfall system.",
+    "activities": [
+      "Trekking",
+      "Photography",
+      "Picnic"
+    ],
+    "best_time": "August to January",
+    "timings": "Daytime",
+    "entry_fee": "Free",
+    "tips": [
+      "Remote location",
+      "Best after monsoon"
+    ],
+    "lat": 19.68000,
+    "lng": 83.00000
+  },
+  {
+    "id": 100,
+    "slug": "nrusinghanath-temple",
+    "name": {
+      "en": "Nrusinghanath Temple",
+      "hi": "नृसिंहनाथ मंदिर"
+    },
+    "city": "Bargarh",
+    "crowd": "Low to Moderate",
+    "rating": 4.4,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/n/n2/Nrusinghanath_temple.jpg/800px-Nrusinghanath_temple.jpg",
+    "description": "Ancient cave temple dedicated to Lord Narasimha near Gandhamardan hills, important pilgrimage site.",
+    "activities": [
+      "Pilgrimage",
+      "Trekking",
+      "Nature walk"
+    ],
+    "best_time": "October to March",
+    "timings": "5:00 AM - 8:00 PM",
+    "entry_fee": "Free",
+    "tips": [
+      "Combine with Gandhamardan trek",
+      "Medicinal herbs forest nearby"
+    ],
+    "lat": 20.72000,
+    "lng": 83.00000
+  },
+  {
+    "id": 101,
+    "slug": "patnagarh-stone-inscriptions",
+    "name": {
+      "en": "Patnagarh (Patna State)",
+      "hi": "पाटनागढ़"
+    },
+    "city": "Balangir",
+    "crowd": "Low",
+    "rating": 3.9,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/p/p1/Patnagarh.jpg/800px-Patnagarh.jpg",
+    "description": "Historic town of former Patna State with ancient stone inscriptions and palace ruins.",
+    "activities": [
+      "History exploration",
+      "Archaeology"
+    ],
+    "best_time": "October to March",
+    "timings": "All day",
+    "entry_fee": "Free",
+    "tips": [
+      "Ancient rock shelters nearby",
+      "Local tribal culture"
+    ],
+    "lat": 20.70000,
+    "lng": 83.10000
+  },
+  {
+    "id": 102,
+    "slug": "bbsr-tribal-museum",
+    "name": {
+      "en": "Tribal Museum (SCSTRTI)",
+      "hi": "आदिवासी संग्रहालय"
+    },
+    "city": "Bhubaneswar",
+    "crowd": "Low",
+    "rating": 4.3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/t/t1/Tribal_museum_bbsr.jpg/800px-Tribal_museum_bbsr.jpg",
+    "description": "Museum showcasing Odisha's 62 tribal communities - art, culture, lifestyle, and traditions.",
+    "activities": [
+      "Museum visit",
+      "Cultural learning"
+    ],
+    "best_time": "All year",
+    "timings": "10:00 AM - 5:00 PM (closed Mondays)",
+    "entry_fee": "₹20-50",
+    "tips": [
+      "Learn about Bonda, Dongria Kondh tribes",
+      "Photo exhibitions"
+    ],
+    "lat": 20.27500,
+    "lng": 85.82000
+  },
+  {
+    "id": 103,
+    "slug": "handloom-weaver-nuapatna",
+    "name": {
+      "en": "Nuapatna (Ikat Weaving Village)",
+      "hi": "नुआपटना"
+    },
+    "city": "Cuttack",
+    "crowd": "Low",
+    "rating": 4.4,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/n/n1/Nuapatna_weaving.jpg/800px-Nuapatna_weaving.jpg",
+    "description": "Famous village for traditional Khandua (Ikat) handloom weaving, GI tagged Odisha craft.",
+    "activities": [
+      "Craft shopping",
+      "Weaving demonstration",
+      "Cultural immersion"
+    ],
+    "best_time": "All year",
+    "timings": "9:00 AM - 6:00 PM",
+    "entry_fee": "Free",
+    "tips": [
+      "Buy directly from weavers",
+      "Watch traditional tie-dye technique"
+    ],
+    "lat": 20.38000,
+    "lng": 85.70000
+  },
+  {
+    "id": 104,
+    "slug": "rajsunakhala-cave",
+    "name": {
+      "en": "Rajsunakhala Caves",
+      "hi": "राजसुनाखला गुफाएं"
+    },
+    "city": "Nayagarh",
+    "crowd": "Low",
+    "rating": 4.0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/r/r1/Rajsunakhala_cave.jpg/800px-Rajsunakhala_cave.jpg",
+    "description": "Ancient rock-cut caves with Jain sculptures and inscriptions, archaeological significance.",
+    "activities": [
+      "Cave exploration",
+      "Archaeology",
+      "Photography"
+    ],
+    "best_time": "October to March",
+    "timings": "Daytime",
+    "entry_fee": "Free",
+    "tips": [
+      "ASI protected",
+      "Flashlight helpful"
+    ],
+    "lat": 20.15000,
+    "lng": 85.20000
+  },
+  {
+    "id": 105,
+    "slug": "dolphin-sanctuary-bhitar",
+    "name": {
+      "en": "Irrawaddy Dolphin Sanctuary",
+      "hi": "इरावाद्य डॉल्फिन अभयारण्य"
+    },
+    "city": "Chilika",
+    "crowd": "Moderate",
+    "rating": 4.6,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/i/i1/Irrawaddy_dolphin.jpg/800px-Irrawaddy_dolphin.jpg",
+    "description": "Designated area in Chilika for endangered Irrawaddy dolphins, one of few places worldwide to see them.",
+    "activities": [
+      "Dolphin watching",
+      "Boat safari",
+      "Photography"
+    ],
+    "best_time": "October to March",
+    "timings": "6:00 AM - 4:00 PM",
+    "entry_fee": "Boat charges ₹1500-2500",
+    "tips": [
+      "Early morning best for sightings",
+      "Satapada is main departure point"
+    ],
+    "lat": 19.67000,
+    "lng": 85.45000
+  },
+  {
+    "id": 106,
+    "slug": "keonjhar-town",
+    "name": {
+      "en": "Keonjhar",
+      "hi": "केंझर"
+    },
+    "city": "Keonjhar",
+    "crowd": "Low to Moderate",
+    "rating": 4.0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/k/k1/Keonjhar_town.jpg/800px-Keonjhar_town.jpg",
+    "description": "Gateway town to waterfalls, temples, and tribal culture of Keonjhar district.",
+    "activities": [
+      "Heritage walk",
+      "Temple visits",
+      "Gateway to waterfalls"
+    ],
+    "best_time": "October to March",
+    "timings": "All day",
+    "entry_fee": "Free",
+    "tips": [
+      "Use as base for Badaghagara Falls",
+      "Ancient temple town"
+    ],
+    "lat": 21.62000,
+    "lng": 85.58000
+  },
+  {
+    "id": 107,
+    "slug": "dhenkanal-town",
+    "name": {
+      "en": "Dhenkanal",
+      "hi": "ढेंकानाल"
+    },
+    "city": "Dhenkanal",
+    "crowd": "Low",
+    "rating": 4.0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Dhenkanal.jpg/800px-Dhenkanal.jpg",
+    "description": "Historic town with Kapilash temple, palace, and gateway to scenic hill sites.",
+    "activities": [
+      "Temple visit",
+      "Palace heritage",
+      "Gateway to Kapilash"
+    ],
+    "best_time": "October to March",
+    "timings": "All day",
+    "entry_fee": "Free",
+    "tips": [
+      "Dhenkanal Palace worth visiting",
+      "Gateway to Kapilash Hill"
+    ],
+    "lat": 20.65000,
+    "lng": 85.60000
+  },
+  {
+    "id": 108,
+    "slug": "rayagada-town",
+    "name": {
+      "en": "Rayagada",
+      "hi": "रायगड़ा"
+    },
+    "city": "Rayagada",
+    "crowd": "Low",
+    "rating": 3.9,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/r/r1/Rayagada.jpg/800px-Rayagada.jpg",
+    "description": "Tribal district headquarters, gateway to Dongria Kondh villages and scenic waterfalls.",
+    "activities": [
+      "Tribal tourism",
+      "Waterfalls",
+      "Cultural immersion"
+    ],
+    "best_time": "October to March",
+    "timings": "All day",
+    "entry_fee": "Free",
+    "tips": [
+      "Respect tribal customs",
+      "Local handicrafts available"
+    ],
+    "lat": 19.17000,
+    "lng": 83.42000
+  },
+  {
+    "id": 109,
+    "slug": "olive-ridley-museum",
+    "name": {
+      "en": "Olive Ridley Turtle Museum",
+      "hi": "ओलिव रिडले कछुआ संग्रहालय"
+    },
+    "city": "Gahirmatha",
+    "crowd": "Low",
+    "rating": 4.1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/o/o1/Olive_ridley_museum.jpg/800px-Olive_ridley_museum.jpg",
+    "description": "Educational museum about Olive Ridley turtle conservation in Bhitarkanika area.",
+    "activities": [
+      "Museum visit",
+      "Conservation learning"
+    ],
+    "best_time": "November to March",
+    "timings": "9:00 AM - 5:00 PM",
+    "entry_fee": "Nominal",
+    "tips": [
+      "Learn about turtle nesting",
+      "Combine with Bhitarkanika visit"
+    ],
+    "lat": 20.72000,
+    "lng": 86.87000
+  },
+  {
+    "id": 110,
+    "slug": "biju-patnaik-park",
+    "name": {
+      "en": "Biju Patnaik Park",
+      "hi": "बीजू पटनायक पार्क"
+    },
+    "city": "Bhubaneswar",
+    "crowd": "Moderate",
+    "rating": 4.2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Biju_patnaik_park.jpg/800px-Biju_patnaik_park.jpg",
+    "description": "Large urban park in Bhubaneswar with musical fountain, children's activities, and green spaces.",
+    "activities": [
+      "Evening walk",
+      "Musical fountain show",
+      "Family outing"
+    ],
+    "best_time": "All year",
+    "timings": "5:00 AM - 9:00 PM",
+    "entry_fee": "₹20",
+    "tips": [
+      "Evening fountain show is popular",
+      "Good for families"
+    ],
+    "lat": 20.29000,
+    "lng": 85.82000
+  },
+  {
+    "id": 111,
+    "slug": "nicco-park-bbsr",
+    "name": {
+      "en": "Ocean World (Nicco Park)",
+      "hi": "ओशन वर्ल्ड"
+    },
+    "city": "Bhubaneswar",
+    "crowd": "Moderate",
+    "rating": 4.1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/n/n1/Nicco_park_bbsr.jpg/800px-Nicco_park_bbsr.jpg",
+    "description": "Amusement and water park in Bhubaneswar with rides, games, and entertainment.",
+    "activities": [
+      "Amusement rides",
+      "Water park",
+      "Family entertainment"
+    ],
+    "best_time": "October to March",
+    "timings": "10:00 AM - 8:00 PM",
+    "entry_fee": "₹300-600",
+    "tips": [
+      "Weekdays less crowded",
+      "Full day experience"
+    ],
+    "lat": 20.30000,
+    "lng": 85.85000
+  },
+  {
+    "id": 112,
+    "slug": "pathani-samanta-planetarium",
+    "name": {
+      "en": "Pathani Samanta Planetarium",
+      "hi": "पठानी सामंत तारामंडल"
+    },
+    "city": "Bhubaneswar",
+    "crowd": "Low to Moderate",
+    "rating": 4.3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/p/p1/Pathani_samanta_planetarium.jpg/800px-Pathani_samanta_planetarium.jpg",
+    "description": "Science center with planetarium shows about astronomy, named after famous Odia astronomer.",
+    "activities": [
+      "Planetarium show",
+      "Science learning"
+    ],
+    "best_time": "All year",
+    "timings": "10:00 AM - 5:30 PM (closed Mondays)",
+    "entry_fee": "₹30-50",
+    "tips": [
+      "Multiple shows daily",
+      "Educational for children"
+    ],
+    "lat": 20.28500,
+    "lng": 85.83000
+  },
+  {
+    "id": 113,
+    "slug": "biju-patnaik-airport",
+    "name": {
+      "en": "Biju Patnaik International Airport",
+      "hi": "बीजू पटनायक अंतर्राष्ट्रीय हवाई अड्डा"
+    },
+    "city": "Bhubaneswar",
+    "crowd": "Moderate to High",
+    "rating": 4.2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Biju_Patnaik_International_Airport.jpg/800px-Biju_Patnaik_International_Airport.jpg",
+    "description": "Main international airport of Odisha serving Bhubaneswar. Well-connected to major Indian cities and select international destinations.",
+    "activities": [
+      "Flight hub",
+      "Gateway to Odisha"
+    ],
+    "best_time": "All year",
+    "timings": "24 hours",
+    "entry_fee": "N/A",
+    "tips": [
+      "60 km from Puri",
+      "Pre-paid taxi booth available",
+      "Airport Code: BBI"
+    ],
+    "lat": 20.24440,
+    "lng": 85.81780
+  },
+  {
+    "id": 114,
+    "slug": "jharsuguda-airport",
+    "name": {
+      "en": "Veer Surendra Sai Airport (Jharsuguda)",
+      "hi": "वीर सुरेंद्र साई हवाई अड्डा"
+    },
+    "city": "Jharsuguda",
+    "crowd": "Low to Moderate",
+    "rating": 3.9,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/j/j1/Jharsuguda_airport.jpg/800px-Jharsuguda_airport.jpg",
+    "description": "Second operational airport in Odisha serving western region. Connects to Delhi, Kolkata, Hyderabad, and Bhubaneswar.",
+    "activities": [
+      "Flight hub",
+      "Gateway to Western Odisha"
+    ],
+    "best_time": "All year",
+    "timings": "6:00 AM - 10:00 PM",
+    "entry_fee": "N/A",
+    "tips": [
+      "Gateway to Sambalpur, Hirakud",
+      "Airport Code: JRG",
+      "Limited flights - check schedule"
+    ],
+    "lat": 21.91340,
+    "lng": 84.05040
+  },
+  {
+    "id": 115,
+    "slug": "jeypore-airport",
+    "name": {
+      "en": "Jeypore Airport",
+      "hi": "जयपुरे हवाई अड्डा"
+    },
+    "city": "Jeypore",
+    "crowd": "Low",
+    "rating": 3.5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/j/j2/Jeypore_airport.jpg/800px-Jeypore_airport.jpg",
+    "description": "Small airport in Koraput district serving southern Odisha tribal region. Limited commercial operations.",
+    "activities": [
+      "Regional connectivity"
+    ],
+    "best_time": "All year",
+    "timings": "Based on flight schedule",
+    "entry_fee": "N/A",
+    "tips": [
+      "Check flight availability",
+      "Alternative: Drive from Visakhapatnam",
+      "Gateway to Koraput tribal region"
+    ],
+    "lat": 18.88000,
+    "lng": 82.55000
+  },
+  {
+    "id": 116,
+    "slug": "paradip-port",
+    "name": {
+      "en": "Paradip Port (Major Seaport)",
+      "hi": "पारादीप बंदरगाह"
+    },
+    "city": "Jagatsinghpur",
+    "crowd": "Low (industrial)",
+    "rating": 3.8,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/p/p1/Paradip_port.jpg/800px-Paradip_port.jpg",
+    "description": "One of India's largest ports by cargo volume on the Bay of Bengal. Important industrial and shipping hub.",
+    "activities": [
+      "Port viewing",
+      "Industrial tourism",
+      "Beach nearby"
+    ],
+    "best_time": "October to March",
+    "timings": "Port operations 24/7, visitor areas daytime",
+    "entry_fee": "Restricted industrial area",
+    "tips": [
+      "Port viewing from designated areas only",
+      "Paradip beach nearby",
+      "120 km from Bhubaneswar"
+    ],
+    "lat": 20.31650,
+    "lng": 86.64580
+  },
+  {
+    "id": 117,
+    "slug": "gopalpur-port",
+    "name": {
+      "en": "Gopalpur Port",
+      "hi": "गोपालपुर बंदरगाह"
+    },
+    "city": "Ganjam",
+    "crowd": "Low",
+    "rating": 3.7,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/g/g1/Gopalpur_port.jpg/800px-Gopalpur_port.jpg",
+    "description": "Historic port with colonial-era legacy now operational. Minor port handling bulk cargo near Gopalpur beach.",
+    "activities": [
+      "Port viewing",
+      "Beach visit",
+      "Historical interest"
+    ],
+    "best_time": "October to March",
+    "timings": "Industrial operations",
+    "entry_fee": "Restricted area",
+    "tips": [
+      "Combine with Gopalpur beach visit",
+      "Old lighthouse nearby",
+      "Historic trading port"
+    ],
+    "lat": 19.26800,
+    "lng": 84.91600
+  },
+  {
+    "id": 118,
+    "slug": "dhamra-port",
+    "name": {
+      "en": "Dhamra Port",
+      "hi": "धामरा बंदरगाह"
+    },
+    "city": "Bhadrak",
+    "crowd": "Low (industrial)",
+    "rating": 3.6,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Dhamra_port.jpg/800px-Dhamra_port.jpg",
+    "description": "Modern deep-water port near Bhitarkanika. All-weather port with significant cargo handling capacity.",
+    "activities": [
+      "Industrial tourism"
+    ],
+    "best_time": "All year",
+    "timings": "Port operations 24/7",
+    "entry_fee": "Restricted industrial area",
+    "tips": [
+      "Near Bhitarkanika National Park",
+      "Industrial zone - limited visitor access",
+      "Modern port infrastructure"
+    ],
+    "lat": 20.77800,
+    "lng": 86.88800
+  },
+  {
+    "id": 119,
+    "slug": "bhubaneswar-railway",
+    "name": {
+      "en": "Bhubaneswar Railway Station",
+      "hi": "भुवनेश्वर रेलवे स्टेशन"
+    },
+    "city": "Bhubaneswar",
+    "crowd": "High",
+    "rating": 4.0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Bhubaneswar_Railway_Station.jpg/800px-Bhubaneswar_Railway_Station.jpg",
+    "description": "Major railway junction of East Coast Railway. Well-connected to all major Indian cities via superfast trains.",
+    "activities": [
+      "Train travel hub",
+      "Gateway station"
+    ],
+    "best_time": "All year",
+    "timings": "24 hours",
+    "entry_fee": "Platform ticket ₹10",
+    "tips": [
+      "Rajdhani, Shatabdi connections",
+      "Pre-paid auto/taxi available",
+      "4 km from city center"
+    ],
+    "lat": 20.27060,
+    "lng": 85.84000
+  },
+  {
+    "id": 120,
+    "slug": "puri-railway",
+    "name": {
+      "en": "Puri Railway Station",
+      "hi": "पुरी रेलवे स्टेशन"
+    },
+    "city": "Puri",
+    "crowd": "High (pilgrimage)",
+    "rating": 4.1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/p/p2/Puri_Railway_Station.jpg/800px-Puri_Railway_Station.jpg",
+    "description": "Terminal station serving the holy city of Puri. Direct trains from Delhi, Kolkata, Mumbai, Chennai.",
+    "activities": [
+      "Train travel",
+      "Pilgrimage gateway"
+    ],
+    "best_time": "All year",
+    "timings": "24 hours",
+    "entry_fee": "Platform ticket ₹10",
+    "tips": [
+      "2 km from Jagannath Temple",
+      "Very crowded during Rath Yatra",
+      "Direct Rajdhani to Delhi"
+    ],
+    "lat": 19.79980,
+    "lng": 85.83100
+  },
+  {
+    "id": 121,
+    "slug": "cuttack-railway",
+    "name": {
+      "en": "Cuttack Railway Station",
+      "hi": "कटक रेलवे स्टेशन"
+    },
+    "city": "Cuttack",
+    "crowd": "High",
+    "rating": 3.9,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Cuttack_Railway_Station.jpg/800px-Cuttack_Railway_Station.jpg",
+    "description": "Important railway junction connecting to Bhubaneswar, Puri, and rest of India. On Howrah-Chennai main line.",
+    "activities": [
+      "Train travel",
+      "Junction station"
+    ],
+    "best_time": "All year",
+    "timings": "24 hours",
+    "entry_fee": "Platform ticket ₹10",
+    "tips": [
+      "28 km from Bhubaneswar",
+      "Junction for Paradip line",
+      "Auto/rickshaw available outside"
+    ],
+    "lat": 20.46200,
+    "lng": 85.88200
+  },
+  {
+    "id": 122,
+    "slug": "sambalpur-railway",
+    "name": {
+      "en": "Sambalpur Railway Station",
+      "hi": "संबलपुर रेलवे स्टेशन"
+    },
+    "city": "Sambalpur",
+    "crowd": "Moderate",
+    "rating": 3.8,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/s/s1/Sambalpur_Railway.jpg/800px-Sambalpur_Railway.jpg",
+    "description": "Railway hub for western Odisha. Connects to Mumbai, Delhi, Kolkata via important rail routes.",
+    "activities": [
+      "Train travel",
+      "Gateway to Hirakud"
+    ],
+    "best_time": "All year",
+    "timings": "24 hours",
+    "entry_fee": "Platform ticket ₹10",
+    "tips": [
+      "15 km from Hirakud Dam",
+      "Sambalpur Road is alternate station",
+      "Good connectivity westward"
+    ],
+    "lat": 21.46830,
+    "lng": 83.97550
+  },
+  {
+    "id": 123,
+    "slug": "berhampur-railway",
+    "name": {
+      "en": "Berhampur Railway Station",
+      "hi": "ब्रह्मपुर रेलवे स्टेशन"
+    },
+    "city": "Berhampur",
+    "crowd": "Moderate",
+    "rating": 3.8,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Berhampur_Railway.jpg/800px-Berhampur_Railway.jpg",
+    "description": "Major station for southern Odisha on East Coast Railway. Gateway to Gopalpur, Taptapani, and Ganjam district.",
+    "activities": [
+      "Train travel",
+      "Gateway to South Odisha"
+    ],
+    "best_time": "All year",
+    "timings": "24 hours",
+    "entry_fee": "Platform ticket ₹10",
+    "tips": [
+      "16 km from Gopalpur beach",
+      "All major trains stop here",
+      "Known as Brahmapur"
+    ],
+    "lat": 19.31140,
+    "lng": 84.79470
+  }
+]

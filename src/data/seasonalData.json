@@ -1,0 +1,309 @@
+{
+    "default": {
+        "months": {
+            "1": {
+                "crowd": "moderate",
+                "weather": "pleasant",
+                "temp": "15-28",
+                "rainfall": "low"
+            },
+            "2": {
+                "crowd": "moderate",
+                "weather": "pleasant",
+                "temp": "18-32",
+                "rainfall": "low"
+            },
+            "3": {
+                "crowd": "low",
+                "weather": "warm",
+                "temp": "22-36",
+                "rainfall": "low"
+            },
+            "4": {
+                "crowd": "low",
+                "weather": "hot",
+                "temp": "26-40",
+                "rainfall": "low"
+            },
+            "5": {
+                "crowd": "low",
+                "weather": "very hot",
+                "temp": "28-42",
+                "rainfall": "low"
+            },
+            "6": {
+                "crowd": "low",
+                "weather": "hot & humid",
+                "temp": "26-38",
+                "rainfall": "moderate"
+            },
+            "7": {
+                "crowd": "very low",
+                "weather": "monsoon",
+                "temp": "24-32",
+                "rainfall": "heavy"
+            },
+            "8": {
+                "crowd": "very low",
+                "weather": "monsoon",
+                "temp": "24-32",
+                "rainfall": "heavy"
+            },
+            "9": {
+                "crowd": "low",
+                "weather": "monsoon ending",
+                "temp": "24-32",
+                "rainfall": "moderate"
+            },
+            "10": {
+                "crowd": "moderate",
+                "weather": "pleasant",
+                "temp": "22-32",
+                "rainfall": "low"
+            },
+            "11": {
+                "crowd": "high",
+                "weather": "pleasant",
+                "temp": "18-30",
+                "rainfall": "very low"
+            },
+            "12": {
+                "crowd": "high",
+                "weather": "pleasant",
+                "temp": "14-28",
+                "rainfall": "very low"
+            }
+        },
+        "bestMonths": [
+            10,
+            11,
+            12,
+            1,
+            2
+        ],
+        "festivals": {
+            "6": [
+                "Rath Yatra (Puri)"
+            ],
+            "10": [
+                "Durga Puja"
+            ],
+            "11": [
+                "Kartik Purnima",
+                "Konark Dance Festival"
+            ],
+            "12": [
+                "Puri Beach Festival"
+            ]
+        }
+    },
+    "puri-jagannath-temple": {
+        "months": {
+            "1": {
+                "crowd": "high",
+                "weather": "pleasant",
+                "note": "Peak tourist season"
+            },
+            "2": {
+                "crowd": "high",
+                "weather": "pleasant",
+                "note": "Good for beach visits"
+            },
+            "6": {
+                "crowd": "extreme",
+                "weather": "hot & humid",
+                "note": "Rath Yatra - massive crowds"
+            },
+            "7": {
+                "crowd": "high",
+                "weather": "monsoon",
+                "note": "Monsoon, some temple events"
+            },
+            "10": {
+                "crowd": "very high",
+                "weather": "pleasant",
+                "note": "Durga Puja festivities"
+            },
+            "11": {
+                "crowd": "very high",
+                "weather": "pleasant",
+                "note": "Peak season begins"
+            },
+            "12": {
+                "crowd": "very high",
+                "weather": "pleasant",
+                "note": "New Year crowd"
+            }
+        },
+        "bestMonths": [
+            10,
+            11,
+            12,
+            1,
+            2,
+            3
+        ],
+        "avoidMonths": [
+            6
+        ],
+        "specialNote": "Avoid Rath Yatra period unless you want to experience the festival (expect extreme crowds)"
+    },
+    "konark-sun-temple": {
+        "months": {
+            "11": {
+                "crowd": "very high",
+                "weather": "pleasant",
+                "note": "Konark Dance Festival"
+            },
+            "12": {
+                "crowd": "high",
+                "weather": "pleasant",
+                "note": "Best time - good weather"
+            }
+        },
+        "bestMonths": [
+            10,
+            11,
+            12,
+            1,
+            2
+        ],
+        "festivals": {
+            "11": [
+                "Konark Dance Festival - Classical dance performances"
+            ]
+        }
+    },
+    "chilika-lake": {
+        "months": {
+            "11": {
+                "crowd": "high",
+                "weather": "pleasant",
+                "note": "Migratory birds arrive"
+            },
+            "12": {
+                "crowd": "very high",
+                "weather": "pleasant",
+                "note": "Peak bird watching season"
+            },
+            "1": {
+                "crowd": "very high",
+                "weather": "pleasant",
+                "note": "Best for bird watching"
+            },
+            "2": {
+                "crowd": "high",
+                "weather": "pleasant",
+                "note": "Good for dolphins & birds"
+            }
+        },
+        "bestMonths": [
+            11,
+            12,
+            1,
+            2
+        ],
+        "specialNote": "November to February is best for migratory birds (Flamingos, Siberian birds)"
+    },
+    "simlipal-national-park": {
+        "months": {
+            "11": {
+                "crowd": "moderate",
+                "weather": "pleasant",
+                "note": "Park opens, good wildlife"
+            },
+            "12": {
+                "crowd": "moderate",
+                "weather": "pleasant",
+                "note": "Best for tiger sighting"
+            },
+            "1": {
+                "crowd": "moderate",
+                "weather": "cool",
+                "note": "Wildlife active"
+            },
+            "2": {
+                "crowd": "moderate",
+                "weather": "pleasant",
+                "note": "Great for safari"
+            },
+            "6": {
+                "crowd": "closed",
+                "weather": "monsoon",
+                "note": "Park closed for monsoon"
+            },
+            "7": {
+                "crowd": "closed",
+                "weather": "monsoon",
+                "note": "Park closed"
+            },
+            "8": {
+                "crowd": "closed",
+                "weather": "monsoon",
+                "note": "Park closed"
+            },
+            "9": {
+                "crowd": "closed",
+                "weather": "monsoon",
+                "note": "Park closed"
+            },
+            "10": {
+                "crowd": "closed",
+                "weather": "post-monsoon",
+                "note": "Park closed, reopening soon"
+            }
+        },
+        "bestMonths": [
+            11,
+            12,
+            1,
+            2
+        ],
+        "closedMonths": [
+            6,
+            7,
+            8,
+            9,
+            10
+        ],
+        "specialNote": "Park is closed from June to mid-November due to monsoon"
+    },
+    "gopalpur-on-sea": {
+        "bestMonths": [
+            10,
+            11,
+            12,
+            1,
+            2,
+            3
+        ],
+        "specialNote": "Best during winter for pleasant beach weather"
+    },
+    "bhitarkanika-national-park": {
+        "months": {
+            "12": {
+                "crowd": "moderate",
+                "weather": "pleasant",
+                "note": "Crocodile nesting season"
+            },
+            "1": {
+                "crowd": "moderate",
+                "weather": "pleasant",
+                "note": "Best for crocodile sighting"
+            },
+            "4": {
+                "crowd": "low",
+                "weather": "hot",
+                "note": "Olive Ridley turtle nesting"
+            }
+        },
+        "bestMonths": [
+            11,
+            12,
+            1,
+            2,
+            3
+        ],
+        "specialNote": "January for crocodile nesting, April for Olive Ridley turtles at Gahirmatha"
+    }
+}

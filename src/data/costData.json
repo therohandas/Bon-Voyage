@@ -1,0 +1,42 @@
+{
+  "accommodation": {
+    "budget": { "min": 500, "max": 1500, "label": "Budget (Hostels/Guesthouses)" },
+    "midRange": { "min": 1500, "max": 4000, "label": "Mid-Range (Hotels)" },
+    "luxury": { "min": 4000, "max": 15000, "label": "Luxury (Resorts/Premium Hotels)" }
+  },
+  "meals": {
+    "streetFood": { "perMeal": 80, "label": "Street Food / Local Eateries" },
+    "restaurants": { "perMeal": 250, "label": "Standard Restaurants" },
+    "fineDining": { "perMeal": 800, "label": "Fine Dining" }
+  },
+  "transport": {
+    "bus": { "perKm": 1.5, "label": "Public Bus" },
+    "train": { "perKm": 2, "label": "Train" },
+    "taxi": { "perKm": 12, "label": "Taxi / Cab" },
+    "rentalCar": { "perDay": 1500, "label": "Rental Car (with fuel)" },
+    "rentalBike": { "perDay": 400, "label": "Rental Bike/Scooter" }
+  },
+  "activities": {
+    "templeEntry": 0,
+    "monumentEntry": 40,
+    "museumEntry": 50,
+    "safariCost": 1500,
+    "boatRide": 500,
+    "guideFee": 500
+  },
+  "misc": {
+    "waterBottle": 20,
+    "snacks": 50,
+    "souvenirs": 500,
+    "tips": 100
+  },
+  "destinationFees": {
+    "puri-jagannath-temple": { "entry": 0, "note": "Donation-based" },
+    "konark-sun-temple": { "entry": 40, "note": "INR 40 for Indians, INR 600 for foreigners" },
+    "chilika-lake": { "entry": 0, "boat": 500, "note": "Boat fees vary by trip" },
+    "simlipal-national-park": { "entry": 100, "safari": 1500, "note": "Safari and permit fees apply" },
+    "nandankanan-zoo": { "entry": 50, "note": "Varies for adults/children" },
+    "bhitarkanika-national-park": { "entry": 100, "boat": 800, "note": "Park and boat fees" },
+    "udayagiri-khandagiri-caves": { "entry": 25, "note": "Small entry fee" }
+  }
+}
