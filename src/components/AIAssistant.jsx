@@ -483,7 +483,7 @@ export default function AIAssistant() {
                                     }}
                                     transition={{ duration: 2, repeat: Infinity }}
                                 >
-                                    <span style={{ fontSize: '1.6rem' }}>🧭</span>
+                                    <span style={{ fontSize: '1.6rem' }}>😏</span>
                                 </motion.div>
                                 <div style={{ zIndex: 1 }}>
                                     <div style={{ fontWeight: 700, color: 'white', fontSize: '1.1rem', letterSpacing: '0.5px' }}>
