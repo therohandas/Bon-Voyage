@@ -8,7 +8,7 @@ export default function AIAssistant() {
     const [messages, setMessages] = useState([
         {
             role: 'assistant',
-            content: "Skip the tourist traps—Odisha is best seen through local eyes. I’m Voyage, your boots-on-the-ground guide to the best Pakhala, the secret beaches of Ganjam, and the most efficient ways to navigate our temple cities. What’s on your itinerary?"
+            content: "I'm Sid, your boots-on-the-ground guide to Odisha. From secret Ganjam beaches to the best local eats, I've got you covered. What’s the plan?"
         }
     ]);
     const [input, setInput] = useState('');
@@ -487,7 +487,7 @@ export default function AIAssistant() {
                                 </motion.div>
                                 <div style={{ zIndex: 1 }}>
                                     <div style={{ fontWeight: 700, color: 'white', fontSize: '1.1rem', letterSpacing: '0.5px' }}>
-                                        Voyage AI
+                                        Sid
                                     </div>
                                     <div style={{ fontSize: '.8rem', color: 'rgba(255,255,255,0.85)', display: 'flex', alignItems: 'center', gap: 6 }}>
                                         <motion.span
