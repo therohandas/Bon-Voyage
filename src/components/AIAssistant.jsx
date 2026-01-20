@@ -67,11 +67,8 @@ export default function AIAssistant() {
 
     const quickQuestions = [
         "Best time to visit Puri?",
-        "What to pack for Odisha?",
         "Budget for 5-day trip?",
         "Must-try Odia food?",
-        "Hidden gems near Bhubaneswar?",
-        "How to reach Simlipal?"
     ];
 
     // Animation variants
