@@ -8,7 +8,7 @@ export default function AIAssistant() {
     const [messages, setMessages] = useState([
         {
             role: 'assistant',
-            content: "Namaste! 🙏 I'm Voyage, your AI travel buddy for Odisha. Ask me anything about planning your trip - from hidden gems to the best local delicacies!"
+            content: "Skip the tourist traps—Odisha is best seen through local eyes. I’m Voyage, your boots-on-the-ground guide to the best Pakhala, the secret beaches of Ganjam, and the most efficient ways to navigate our temple cities. What’s on your itinerary?"
         }
     ]);
     const [input, setInput] = useState('');
