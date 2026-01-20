@@ -5,6 +5,8 @@
 [build.environment]
   NODE_VERSION = "20"
   NPM_FLAGS = "--include=dev"
+  # Allow the Groq API key in built JS (required for frontend API calls)
+  SECRETS_SCAN_OMIT_KEYS = "VITE_GROQ_API_KEY"
 
 [[redirects]]
   from = "/*"
