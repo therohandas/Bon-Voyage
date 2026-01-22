@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useCompare } from '../contexts/CompareContext';
+import { getImageProps } from '../utils/imageUtils';
 
 export default function Compare() {
     const { compareList, removeFromCompare, clearCompare } = useCompare();
@@ -151,7 +152,7 @@ export default function Compare() {
                                                     {/* Image */}
                                                     <div style={{ height: 140, overflow: 'hidden' }}>
                                                         <img
-                                                            src={dest.image}
+                                                            {...getImageProps(dest)}
                                                             alt={getName(dest.name)}
                                                             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                                                         />

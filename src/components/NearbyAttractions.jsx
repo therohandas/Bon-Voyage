@@ -2,6 +2,7 @@ import React, { useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { calculateDistance } from '../utils/RecommendationEngine';
+import { getImageProps } from '../utils/imageUtils';
 import locations from '../data/locations.json';
 
 export default function NearbyAttractions({ currentLocation, maxDistance = 50 }) {
@@ -83,7 +84,7 @@ export default function NearbyAttractions({ currentLocation, maxDistance = 50 })
                                 flexShrink: 0
                             }}>
                                 <img
-                                    src={loc.image}
+                                    {...getImageProps(loc)}
                                     alt={getName(loc.name)}
                                     style={{
                                         width: '100%',

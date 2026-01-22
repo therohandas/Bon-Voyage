@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import BudgetCalculator from '../components/BudgetCalculator';
 import PackingList from '../components/PackingList';
 
@@ -43,7 +44,7 @@ export default function TravelTools() {
                             Plan Your Trip
                         </h1>
                         <p style={{ color: 'var(--txt-2)', maxWidth: 600, margin: '0 auto' }}>
-                            Use these handy tools to estimate your budget and pack smartly for your Odisha adventure.
+                            Use these handy tools to estimate your budget, pack smartly, and discover personalized destinations.
                         </p>
                     </header>
 
@@ -52,7 +53,8 @@ export default function TravelTools() {
                         display: 'flex',
                         gap: 8,
                         marginBottom: 32,
-                        justifyContent: 'center'
+                        justifyContent: 'center',
+                        flexWrap: 'wrap'
                     }}>
                         <button
                             onClick={() => setActiveTab('budget')}
@@ -76,6 +78,16 @@ export default function TravelTools() {
                             </svg>
                             Packing List
                         </button>
+                        <button
+                            onClick={() => setActiveTab('picks')}
+                            className={`btn ${activeTab === 'picks' ? 'btn-primary' : ''}`}
+                            style={{ padding: '12px 24px' }}
+                        >
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                            </svg>
+                            Personalized Picks
+                        </button>
                     </div>
 
                     {/* Budget Calculator */}
@@ -86,6 +98,29 @@ export default function TravelTools() {
                             style={{ maxWidth: 900, margin: '0 auto' }}
                         >
                             <BudgetCalculator selectedDestinations={[]} />
+                        </motion.div>
+                    )}
+
+                    {/* Personalized Picks */}
+                    {activeTab === 'picks' && (
+                        <motion.div
+                            initial={{ opacity: 0, y: 10 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            style={{ maxWidth: 900, margin: '0 auto' }}
+                        >
+                            <div className="card" style={{ padding: 40, textAlign: 'center' }}>
+                                <div style={{ fontSize: '3rem', marginBottom: 16 }}>✨</div>
+                                <h3 style={{ marginBottom: 12 }}>Personalized Destination Picks</h3>
+                                <p style={{ color: 'var(--txt-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
+                                    Answer a few questions about your travel preferences and get AI-powered recommendations tailored just for you.
+                                </p>
+                                <Link to="/recommendations" className="btn btn-primary" style={{ padding: '14px 32px' }}>
+                                    Get Personalized Recommendations
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                        <path d="M5 12h14M12 5l7 7-7 7" />
+                                    </svg>
+                                </Link>
+                            </div>
                         </motion.div>
                     )}
 

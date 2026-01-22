@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useFavorites } from '../contexts/FavoritesContext';
+import { getImageProps } from '../utils/imageUtils';
 import FavoriteButton from '../components/FavoriteButton';
 import CompareButton from '../components/CompareButton';
 
@@ -98,7 +99,7 @@ export default function Favorites() {
                                         <Link to={`/location/${loc.slug}`}>
                                             <div className="destination-image-wrap">
                                                 <img
-                                                    src={loc.image}
+                                                    {...getImageProps(loc)}
                                                     alt={getName(loc.name)}
                                                     className="destination-image"
                                                     loading="lazy"

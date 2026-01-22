@@ -1,7 +1,19 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { getImageProps } from "../utils/imageUtils";
 
 export default function FeaturedGrid({ items }) {
+  // Get image props with fallback for each item
+  const getImgProps = (item) => {
+    if (item.slug) {
+      return getImageProps(item);
+    }
+    return {
+      src: item.image || "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+      onError: (e) => { e.target.src = "/images/locations/placeholder.jpg"; }
+    };
+  };
+
   return (
     <section id="featured" className="section">
       <div className="container">
@@ -28,7 +40,7 @@ export default function FeaturedGrid({ items }) {
             >
               <div className="destination-image-wrap">
                 <img
-                  src={d.image || "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"}
+                  {...getImgProps(d)}
                   alt={d.title}
                   className="destination-image"
                   loading="lazy"

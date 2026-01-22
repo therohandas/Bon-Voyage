@@ -45,8 +45,8 @@ export default function Navbar() {
           <NavLink to="/explore" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
             Explore
           </NavLink>
-          <NavLink to="/recommendations" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
-            For You
+          <NavLink to="/blog" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
+            Blog
           </NavLink>
           <NavLink to="/itinerary-generator" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
             Plan Trip

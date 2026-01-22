@@ -8,6 +8,7 @@ import crowdMap from '../data/crowd.json'
 import galleryData from '../data/galleryData.json'
 import { useLang } from '../contexts/LanguageContext.jsx'
 import { tText } from '../utils/i18n.js'
+import { getImageProps } from '../utils/imageUtils'
 import FavoriteButton from '../components/FavoriteButton.jsx'
 import CompareButton from '../components/CompareButton.jsx'
 import WeatherWidget from '../components/WeatherWidget.jsx'
@@ -59,7 +60,7 @@ export default function Spot() {
           overflow: 'hidden'
         }}>
           <img
-            src={item.image}
+            {...getImageProps(item)}
             alt={name}
             style={{
               width: '100%',

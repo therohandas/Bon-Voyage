@@ -4,6 +4,7 @@ import Card from "../components/Card.jsx";
 import locationsRaw from "../data/locations.json";
 import { useLang } from "../contexts/LanguageContext.jsx";
 import { tText } from "../utils/i18n.js";
+import { getImageProps } from "../utils/imageUtils";
 import { Link } from "react-router-dom";
 import FavoriteButton from "../components/FavoriteButton.jsx";
 import CompareButton from "../components/CompareButton.jsx";
@@ -144,7 +145,7 @@ export default function Explore() {
                     >
                       <div className="destination-image-wrap">
                         <img
-                          src={loc.image}
+                          {...getImageProps(loc)}
                           alt={loc._name}
                           className="destination-image"
                           loading="lazy"

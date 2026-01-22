@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import locations from '../data/locations.json';
 import { generateAIItinerary } from '../services/aiService';
 import { useFavorites } from '../contexts/FavoritesContext';
+import { getImageProps } from '../utils/imageUtils';
 
 export default function ItineraryGenerator() {
   const { favorites } = useFavorites();
@@ -230,7 +231,7 @@ export default function ItineraryGenerator() {
                         >
                           <div style={{ position: 'relative', height: 80 }}>
                             <img
-                              src={loc.image}
+                              {...getImageProps(loc)}
                               alt={getName(loc.name)}
                               style={{
                                 width: '100%',

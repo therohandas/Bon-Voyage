@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <!-- Gradient background matching the dark travel theme -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1a14"/>
+      <stop offset="50%" style="stop-color:#1a2f23"/>
+      <stop offset="100%" style="stop-color:#0d1510"/>
+    </linearGradient>
+    
+    <!-- Subtle glow for elements -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Pulse animation -->
+    <style>
+      @keyframes pulse {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 0.8; }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: 0; }
+      }
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+      .float { animation: float 3s ease-in-out infinite; }
+      .compass-needle { animation: spin 8s linear infinite; transform-origin: 400px 280px; }
+      .path-animate { 
+        stroke-dasharray: 200;
+        stroke-dashoffset: 200;
+        animation: dash 3s ease-in-out infinite alternate;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Decorative dots pattern -->
+  <g class="pulse" fill="#2d4a3a" opacity="0.3">
+    <circle cx="100" cy="100" r="2"/>
+    <circle cx="200" cy="150" r="1.5"/>
+    <circle cx="600" cy="120" r="2"/>
+    <circle cx="700" cy="180" r="1.5"/>
+    <circle cx="150" cy="450" r="2"/>
+    <circle cx="650" cy="480" r="1.5"/>
+    <circle cx="300" cy="520" r="2"/>
+    <circle cx="500" cy="500" r="1.5"/>
+  </g>
+  
+  <!-- Mountains silhouette with layers -->
+  <path d="M0 480 L120 380 L200 420 L350 300 L450 360 L550 280 L680 350 L800 300 L800 600 L0 600 Z" fill="#162117" opacity="0.5"/>
+  <path d="M0 520 L150 440 L280 480 L400 380 L520 440 L650 400 L800 450 L800 600 L0 600 Z" fill="#0d1510" opacity="0.4"/>
+  
+  <!-- Compass circle - main element -->
+  <g class="float" filter="url(#glow)">
+    <!-- Outer ring -->
+    <circle cx="400" cy="280" r="80" fill="none" stroke="#3d5a47" stroke-width="3" opacity="0.6"/>
+    <circle cx="400" cy="280" r="70" fill="none" stroke="#4a6b54" stroke-width="1" opacity="0.4"/>
+    
+    <!-- Compass markings -->
+    <line x1="400" y1="210" x2="400" y2="225" stroke="#5a7b64" stroke-width="2"/>
+    <line x1="400" y1="335" x2="400" y2="350" stroke="#5a7b64" stroke-width="2"/>
+    <line x1="330" y1="280" x2="345" y2="280" stroke="#5a7b64" stroke-width="2"/>
+    <line x1="455" y1="280" x2="470" y2="280" stroke="#5a7b64" stroke-width="2"/>
+    
+    <!-- N, E, S, W labels -->
+    <text x="400" y="205" text-anchor="middle" fill="#6a8b74" font-family="system-ui" font-size="12" font-weight="bold">N</text>
+    <text x="400" y="365" text-anchor="middle" fill="#5a7b64" font-family="system-ui" font-size="10">S</text>
+    <text x="320" y="284" text-anchor="middle" fill="#5a7b64" font-family="system-ui" font-size="10">W</text>
+    <text x="480" y="284" text-anchor="middle" fill="#5a7b64" font-family="system-ui" font-size="10">E</text>
+    
+    <!-- Rotating compass needle -->
+    <g class="compass-needle">
+      <polygon points="400,230 395,280 400,290 405,280" fill="#667eea" opacity="0.8"/>
+      <polygon points="400,330 395,280 400,270 405,280" fill="#4a5568" opacity="0.6"/>
+    </g>
+    
+    <!-- Center dot -->
+    <circle cx="400" cy="280" r="6" fill="#667eea" opacity="0.8"/>
+    <circle cx="400" cy="280" r="3" fill="#8b9cf5"/>
+  </g>
+  
+  <!-- Animated travel path -->
+  <path class="path-animate" d="M150 350 Q 280 200 400 280 Q 520 360 650 250" fill="none" stroke="#667eea" stroke-width="2" stroke-dasharray="8,4" opacity="0.5"/>
+  
+  <!-- Small plane icon following path -->
+  <g class="float" style="animation-delay: -1.5s;">
+    <path d="M620 265 l15 -8 l5 0 l0 4 l-5 4 l5 4 l0 4 l-5 0 l-15 -8 z" fill="#667eea" opacity="0.7"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="400" y="420" text-anchor="middle" fill="#5a7b64" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500">
+    Discovering destination...
+  </text>
+  <text x="400" y="445" text-anchor="middle" fill="#3d5a47" font-family="system-ui, -apple-system, sans-serif" font-size="11">
+    Image loading
+  </text>
+</svg>
