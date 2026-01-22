@@ -8,7 +8,7 @@ export default function AIAssistant() {
     const [messages, setMessages] = useState([
         {
             role: 'assistant',
-            content: "Namaste! 🙏 I'm Voyage, your AI travel buddy for Odisha. Ask me anything about planning your trip - from hidden gems to the best local delicacies!"
+            content: "I'm Sid, your boots-on-the-ground guide to Odisha. From secret Ganjam beaches to the best local eats, I've got you covered. What’s the plan?"
         }
     ]);
     const [input, setInput] = useState('');
@@ -67,11 +67,8 @@ export default function AIAssistant() {
 
     const quickQuestions = [
         "Best time to visit Puri?",
-        "What to pack for Odisha?",
         "Budget for 5-day trip?",
         "Must-try Odia food?",
-        "Hidden gems near Bhubaneswar?",
-        "How to reach Simlipal?"
     ];
 
     // Animation variants
@@ -486,11 +483,11 @@ export default function AIAssistant() {
                                     }}
                                     transition={{ duration: 2, repeat: Infinity }}
                                 >
-                                    <span style={{ fontSize: '1.6rem' }}>🧭</span>
+                                    <span style={{ fontSize: '1.6rem' }}>😏</span>
                                 </motion.div>
                                 <div style={{ zIndex: 1 }}>
                                     <div style={{ fontWeight: 700, color: 'white', fontSize: '1.1rem', letterSpacing: '0.5px' }}>
-                                        Voyage AI
+                                        Sid
                                     </div>
                                     <div style={{ fontSize: '.8rem', color: 'rgba(255,255,255,0.85)', display: 'flex', alignItems: 'center', gap: 6 }}>
                                         <motion.span
