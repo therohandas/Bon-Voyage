@@ -3,423 +3,400 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const StartupAnimation = ({ onComplete }) => {
     const [isVisible, setIsVisible] = useState(true);
-    const [animationPhase, setAnimationPhase] = useState(0);
+    const [phase, setPhase] = useState(0);
 
     useEffect(() => {
-        // Extended phase transitions for 8-second animation
-        const phase1Timer = setTimeout(() => setAnimationPhase(1), 800);
-        const phase2Timer = setTimeout(() => setAnimationPhase(2), 2500);
-        const phase3Timer = setTimeout(() => setAnimationPhase(3), 4500);
-        const phase4Timer = setTimeout(() => setAnimationPhase(4), 6500);
-        const exitTimer = setTimeout(() => {
-            setIsVisible(false);
-            setTimeout(() => onComplete?.(), 800);
-        }, 8000);
+        // Synchronized phase transitions - cleaner timing
+        const timers = [
+            setTimeout(() => setPhase(1), 300),      // Phase 1: Logo & title start
+            setTimeout(() => setPhase(2), 1800),     // Phase 2: Tagline & destinations
+            setTimeout(() => setPhase(3), 3500),     // Phase 3: Full reveal
+            setTimeout(() => setPhase(4), 6000),     // Phase 4: Ready to exit
+            setTimeout(() => {
+                setIsVisible(false);
+                setTimeout(() => onComplete?.(), 700);
+            }, 7500),
+        ];
 
-        return () => {
-            clearTimeout(phase1Timer);
-            clearTimeout(phase2Timer);
-            clearTimeout(phase3Timer);
-            clearTimeout(phase4Timer);
-            clearTimeout(exitTimer);
-        };
+        return () => timers.forEach(clearTimeout);
     }, [onComplete]);
 
-    // Generate floating particles (like fireflies in Odisha forests)
-    const particles = Array.from({ length: 40 }, (_, i) => ({
+    // Floating particles - fewer, better placed
+    const particles = Array.from({ length: 25 }, (_, i) => ({
         id: i,
         x: Math.random() * 100,
         y: Math.random() * 100,
-        size: Math.random() * 4 + 2,
-        delay: Math.random() * 3,
-        duration: Math.random() * 4 + 3,
+        size: Math.random() * 3 + 2,
+        delay: Math.random() * 2,
+        duration: Math.random() * 3 + 4,
     }));
 
-    // Iconic Odisha destinations with descriptions
+    // Destinations with coordinated reveal
     const destinations = [
-        { x: 15, y: 35, delay: 0.3, name: 'Puri', icon: '🏛️' },
-        { x: 78, y: 28, delay: 0.6, name: 'Konark', icon: '☀️' },
-        { x: 35, y: 65, delay: 0.9, name: 'Chilika', icon: '🦩' },
-        { x: 70, y: 60, delay: 1.2, name: 'Simlipal', icon: '🐯' },
-        { x: 25, y: 80, delay: 1.5, name: 'Gopalpur', icon: '🏖️' },
-        { x: 55, y: 45, delay: 1.8, name: 'Bhubaneswar', icon: '🕉️' },
+        { x: 18, y: 32, name: 'Puri', icon: '🏛️', delay: 0 },
+        { x: 75, y: 25, name: 'Konark', icon: '☀️', delay: 0.15 },
+        { x: 38, y: 62, name: 'Chilika', icon: '🦩', delay: 0.3 },
+        { x: 68, y: 58, name: 'Simlipal', icon: '🐯', delay: 0.45 },
+        { x: 28, y: 78, name: 'Gopalpur', icon: '🏖️', delay: 0.6 },
     ];
 
-    // Floating cultural elements
-    const culturalElements = [
-        { emoji: '🪷', x: 10, y: 20, delay: 0.5 },  // Lotus (state flower)
-        { emoji: '🦚', x: 85, y: 75, delay: 1.0 },  // Peacock
-        { emoji: '🐘', x: 90, y: 30, delay: 1.5 },  // Elephant
-        { emoji: '🌴', x: 5, y: 70, delay: 2.0 },   // Palm trees
-    ];
+    // Title letters for staggered animation
+    const titleText = "Bon Voyage";
+    const letters = titleText.split('');
 
     return (
         <AnimatePresence>
             {isVisible && (
                 <motion.div
-                    className="startup-animation-overlay"
+                    className="startup-overlay"
                     initial={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
-                    transition={{ duration: 0.8, ease: 'easeInOut' }}
+                    transition={{ duration: 0.7, ease: 'easeInOut' }}
+                    style={{
+                        position: 'fixed',
+                        inset: 0,
+                        zIndex: 9999,
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        overflow: 'hidden',
+                        background: '#0a0d0a',
+                    }}
                 >
-                    {/* Layered background - forest/nature theme */}
-                    <div className="startup-bg-layer startup-bg-1" />
-                    <div className="startup-bg-layer startup-bg-2" />
-                    <div className="startup-bg-layer startup-bg-3" />
+                    {/* Background gradients */}
+                    <div style={{
+                        position: 'absolute',
+                        inset: 0,
+                        background: `
+              radial-gradient(ellipse 80% 60% at 50% 50%, rgba(47, 93, 98, 0.2), transparent 70%),
+              radial-gradient(ellipse 60% 40% at 80% 20%, rgba(201, 162, 39, 0.1), transparent 50%),
+              radial-gradient(ellipse 50% 50% at 20% 80%, rgba(85, 122, 87, 0.15), transparent 50%)
+            `,
+                    }} />
 
-                    {/* Subtle wave pattern (ocean/Chilika) */}
-                    <svg className="startup-waves" viewBox="0 0 100 20" preserveAspectRatio="none">
-                        <motion.path
-                            d="M0 10 Q 25 5, 50 10 T 100 10 L 100 20 L 0 20 Z"
-                            fill="rgba(47, 93, 98, 0.1)"
-                            initial={{ opacity: 0, y: 10 }}
-                            animate={{ opacity: animationPhase >= 1 ? 0.5 : 0, y: 0 }}
-                            transition={{ duration: 1, delay: 0.5 }}
-                        />
-                        <motion.path
-                            d="M0 12 Q 25 8, 50 12 T 100 12 L 100 20 L 0 20 Z"
-                            fill="rgba(47, 93, 98, 0.08)"
-                            initial={{ opacity: 0, y: 10 }}
-                            animate={{ opacity: animationPhase >= 1 ? 0.4 : 0, y: 0 }}
-                            transition={{ duration: 1, delay: 0.7 }}
-                        />
-                    </svg>
-
-                    {/* Floating firefly particles */}
-                    <div className="startup-particles">
-                        {particles.map((particle) => (
-                            <motion.div
-                                key={particle.id}
-                                className="startup-particle"
-                                style={{
-                                    left: `${particle.x}%`,
-                                    top: `${particle.y}%`,
-                                    width: particle.size,
-                                    height: particle.size,
-                                }}
-                                initial={{ opacity: 0, scale: 0 }}
-                                animate={{
-                                    opacity: [0, 0.8, 0.3, 0.8, 0],
-                                    scale: [0, 1.2, 0.8, 1, 0],
-                                    y: [0, -20, -40, -60],
-                                }}
-                                transition={{
-                                    duration: particle.duration,
-                                    delay: particle.delay,
-                                    repeat: Infinity,
-                                    ease: 'easeInOut',
-                                }}
-                            />
-                        ))}
-                    </div>
-
-                    {/* Cultural floating elements */}
-                    {culturalElements.map((elem, i) => (
+                    {/* Floating particles */}
+                    {particles.map((p) => (
                         <motion.div
-                            key={i}
-                            className="startup-cultural-element"
-                            style={{ left: `${elem.x}%`, top: `${elem.y}%` }}
-                            initial={{ opacity: 0, scale: 0, rotate: -20 }}
+                            key={p.id}
+                            style={{
+                                position: 'absolute',
+                                left: `${p.x}%`,
+                                top: `${p.y}%`,
+                                width: p.size,
+                                height: p.size,
+                                borderRadius: '50%',
+                                background: 'radial-gradient(circle, rgba(201, 162, 39, 0.8), transparent 70%)',
+                                boxShadow: '0 0 6px rgba(201, 162, 39, 0.4)',
+                            }}
                             animate={{
-                                opacity: animationPhase >= 2 ? [0, 0.6, 0.4, 0.6] : 0,
-                                scale: animationPhase >= 2 ? 1 : 0,
-                                rotate: 0,
-                                y: animationPhase >= 2 ? [0, -15, 0, -10, 0] : 0,
+                                opacity: [0, 0.7, 0],
+                                y: [0, -40],
+                                scale: [0.5, 1, 0.5],
                             }}
                             transition={{
-                                opacity: { duration: 4, repeat: Infinity },
-                                scale: { duration: 0.6, delay: elem.delay },
-                                rotate: { duration: 0.6, delay: elem.delay },
-                                y: { duration: 5, repeat: Infinity, ease: 'easeInOut' },
+                                duration: p.duration,
+                                delay: p.delay,
+                                repeat: Infinity,
+                                ease: 'easeInOut',
+                            }}
+                        />
+                    ))}
+
+                    {/* Konark Wheel - Real PNG Image */}
+                    <motion.div
+                        style={{
+                            position: 'absolute',
+                            top: '8%',
+                            right: '6%',
+                            width: '150px',
+                            height: '150px',
+                        }}
+                        initial={{ opacity: 0, scale: 0.5, rotate: -90 }}
+                        animate={{
+                            opacity: phase >= 1 ? 0.25 : 0,
+                            scale: phase >= 1 ? 1 : 0.5,
+                            rotate: phase >= 1 ? 360 : -90,
+                        }}
+                        transition={{
+                            opacity: { duration: 0.8 },
+                            scale: { duration: 0.8 },
+                            rotate: { duration: 20, repeat: Infinity, ease: 'linear' }
+                        }}
+                    >
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Wheel_of_Konark%2C_Orissa%2C_India.JPG/240px-Wheel_of_Konark%2C_Orissa%2C_India.JPG"
+                            alt="Konark Wheel"
+                            style={{
+                                width: '100%',
+                                height: '100%',
+                                objectFit: 'contain',
+                                filter: 'brightness(1.2) sepia(0.3) hue-rotate(60deg)',
+                                opacity: 0.9,
+                            }}
+                            onError={(e) => { e.target.style.display = 'none'; }}
+                        />
+                    </motion.div>
+
+                    {/* Destination pins */}
+                    {destinations.map((dest, i) => (
+                        <motion.div
+                            key={i}
+                            style={{
+                                position: 'absolute',
+                                left: `${dest.x}%`,
+                                top: `${dest.y}%`,
+                                display: 'flex',
+                                flexDirection: 'column',
+                                alignItems: 'center',
+                                transform: 'translate(-50%, -50%)',
+                                zIndex: 5,
+                            }}
+                            initial={{ opacity: 0, scale: 0, y: -20 }}
+                            animate={{
+                                opacity: phase >= 2 ? 1 : 0,
+                                scale: phase >= 2 ? 1 : 0,
+                                y: phase >= 2 ? 0 : -20,
+                            }}
+                            transition={{
+                                duration: 0.5,
+                                delay: dest.delay,
+                                type: 'spring',
+                                stiffness: 200,
                             }}
                         >
-                            {elem.emoji}
+                            <span style={{ fontSize: '1.6rem', filter: 'drop-shadow(0 3px 8px rgba(0,0,0,0.4))' }}>
+                                {dest.icon}
+                            </span>
+                            <motion.div
+                                style={{
+                                    position: 'absolute',
+                                    width: '35px',
+                                    height: '35px',
+                                    borderRadius: '50%',
+                                    background: 'rgba(76, 175, 80, 0.25)',
+                                    zIndex: -1,
+                                }}
+                                animate={{ scale: [0.5, 2, 0.5], opacity: [0.6, 0, 0.6] }}
+                                transition={{ duration: 2, repeat: Infinity, ease: 'easeOut' }}
+                            />
+                            <span style={{
+                                marginTop: '6px',
+                                fontSize: '0.6rem',
+                                fontWeight: 600,
+                                color: '#9db79e',
+                                textTransform: 'uppercase',
+                                letterSpacing: '0.12em',
+                                textShadow: '0 2px 6px rgba(0,0,0,0.5)',
+                            }}>
+                                {dest.name}
+                            </span>
                         </motion.div>
                     ))}
 
-                    {/* Destination pins */}
-                    <div className="startup-pins-container">
-                        {destinations.map((dest, i) => (
-                            <motion.div
-                                key={i}
-                                className="startup-destination"
-                                style={{ left: `${dest.x}%`, top: `${dest.y}%` }}
-                                initial={{ scale: 0, opacity: 0, y: -30 }}
-                                animate={{
-                                    scale: animationPhase >= 3 ? 1 : 0,
-                                    opacity: animationPhase >= 3 ? 1 : 0,
-                                    y: animationPhase >= 3 ? 0 : -30,
-                                }}
-                                transition={{
-                                    type: 'spring',
-                                    stiffness: 150,
-                                    damping: 12,
-                                    delay: dest.delay,
-                                }}
-                            >
-                                <div className="destination-icon">{dest.icon}</div>
-                                <div className="destination-pulse" />
-                                <span className="destination-name">{dest.name}</span>
-                            </motion.div>
-                        ))}
-                    </div>
-
-                    {/* Connection lines between destinations */}
-                    <svg className="startup-connections" viewBox="0 0 100 100" preserveAspectRatio="none">
-                        <motion.path
-                            d="M 15 35 Q 45 30, 78 28"
-                            fill="none"
-                            stroke="url(#connectionGradient)"
-                            strokeWidth="0.15"
-                            strokeDasharray="1 0.5"
-                            initial={{ pathLength: 0, opacity: 0 }}
-                            animate={{
-                                pathLength: animationPhase >= 3 ? 1 : 0,
-                                opacity: animationPhase >= 3 ? 0.6 : 0,
-                            }}
-                            transition={{ duration: 2, delay: 0.5 }}
-                        />
-                        <motion.path
-                            d="M 55 45 Q 45 55, 35 65"
-                            fill="none"
-                            stroke="url(#connectionGradient)"
-                            strokeWidth="0.15"
-                            strokeDasharray="1 0.5"
-                            initial={{ pathLength: 0, opacity: 0 }}
-                            animate={{
-                                pathLength: animationPhase >= 3 ? 1 : 0,
-                                opacity: animationPhase >= 3 ? 0.5 : 0,
-                            }}
-                            transition={{ duration: 1.5, delay: 1 }}
-                        />
-                        <defs>
-                            <linearGradient id="connectionGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                                <stop offset="0%" stopColor="rgba(76, 175, 80, 0.3)" />
-                                <stop offset="100%" stopColor="rgba(129, 199, 132, 0.6)" />
-                            </linearGradient>
-                        </defs>
-                    </svg>
-
-                    {/* Sun Temple inspired decorative element */}
-                    <motion.div
-                        className="startup-sun-wheel"
-                        initial={{ opacity: 0, scale: 0.5, rotate: -90 }}
-                        animate={{
-                            opacity: animationPhase >= 2 ? 0.12 : 0,
-                            scale: animationPhase >= 2 ? 1 : 0.5,
-                            rotate: animationPhase >= 2 ? 0 : -90,
-                        }}
-                        transition={{ duration: 2, ease: 'easeOut' }}
-                    >
-                        <svg viewBox="0 0 100 100" className="sun-wheel-svg">
-                            <circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" strokeWidth="0.5" />
-                            <circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" strokeWidth="0.3" />
-                            <circle cx="50" cy="50" r="20" fill="none" stroke="currentColor" strokeWidth="0.3" />
-                            {[...Array(12)].map((_, i) => (
-                                <line
-                                    key={i}
-                                    x1="50"
-                                    y1="10"
-                                    x2="50"
-                                    y2="25"
-                                    stroke="currentColor"
-                                    strokeWidth="0.5"
-                                    transform={`rotate(${i * 30} 50 50)`}
-                                />
-                            ))}
-                            {[...Array(8)].map((_, i) => (
-                                <circle
-                                    key={i}
-                                    cx="50"
-                                    cy="15"
-                                    r="2"
-                                    fill="currentColor"
-                                    opacity="0.5"
-                                    transform={`rotate(${i * 45} 50 50)`}
-                                />
-                            ))}
-                        </svg>
-                    </motion.div>
-
-                    {/* Main content container */}
-                    <div className="startup-content">
-                        {/* Glowing orb */}
+                    {/* Main content */}
+                    <div style={{
+                        position: 'relative',
+                        zIndex: 10,
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                        textAlign: 'center',
+                        padding: '20px',
+                    }}>
+                        {/* Glow behind text */}
                         <motion.div
-                            className="startup-glow-orb"
-                            initial={{ scale: 0, opacity: 0 }}
+                            style={{
+                                position: 'absolute',
+                                width: '350px',
+                                height: '350px',
+                                background: 'radial-gradient(circle, rgba(76, 175, 80, 0.3), transparent 70%)',
+                                borderRadius: '50%',
+                                filter: 'blur(60px)',
+                                zIndex: -1,
+                            }}
                             animate={{
-                                scale: animationPhase >= 1 ? [1, 1.3, 1] : 0,
-                                opacity: animationPhase >= 1 ? 0.5 : 0,
+                                scale: [1, 1.2, 1],
+                                opacity: [0.4, 0.6, 0.4],
                             }}
-                            transition={{
-                                scale: { duration: 4, repeat: Infinity, ease: 'easeInOut' },
-                                opacity: { duration: 0.8 },
-                            }}
+                            transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
                         />
 
-                        {/* Konark wheel icon */}
-                        <motion.div
-                            className="startup-main-icon"
-                            initial={{ opacity: 0, scale: 0, rotate: -180 }}
-                            animate={{
-                                opacity: animationPhase >= 1 ? 1 : 0,
-                                scale: animationPhase >= 1 ? 1 : 0,
-                                rotate: animationPhase >= 1 ? 0 : -180,
-                            }}
-                            transition={{ duration: 1.2, type: 'spring', stiffness: 80 }}
-                        >
-                            <svg viewBox="0 0 64 64" fill="none">
-                                <circle cx="32" cy="32" r="28" stroke="url(#wheelGradient)" strokeWidth="2" />
-                                <circle cx="32" cy="32" r="20" stroke="url(#wheelGradient)" strokeWidth="1.5" />
-                                <circle cx="32" cy="32" r="8" fill="url(#wheelGradient)" opacity="0.3" />
-                                {[...Array(8)].map((_, i) => (
-                                    <g key={i} transform={`rotate(${i * 45} 32 32)`}>
-                                        <line x1="32" y1="4" x2="32" y2="12" stroke="url(#wheelGradient)" strokeWidth="2" strokeLinecap="round" />
-                                        <circle cx="32" cy="6" r="1.5" fill="url(#wheelGradient)" />
-                                    </g>
-                                ))}
-                                {[...Array(8)].map((_, i) => (
-                                    <line
-                                        key={`spoke-${i}`}
-                                        x1="32"
-                                        y1="12"
-                                        x2="32"
-                                        y2="24"
-                                        stroke="url(#wheelGradient)"
-                                        strokeWidth="1"
-                                        transform={`rotate(${i * 45} 32 32)`}
-                                    />
-                                ))}
-                                <defs>
-                                    <linearGradient id="wheelGradient" x1="4" y1="4" x2="60" y2="60">
-                                        <stop offset="0%" stopColor="#4CAF50" />
-                                        <stop offset="50%" stopColor="#81C784" />
-                                        <stop offset="100%" stopColor="#C9A227" />
-                                    </linearGradient>
-                                </defs>
-                            </svg>
-                        </motion.div>
-
-                        {/* Brand name with letter animation */}
-                        <motion.h1
-                            className="startup-title"
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: animationPhase >= 1 ? 1 : 0 }}
-                            transition={{ duration: 0.5 }}
-                        >
-                            {'Bon Voyage'.split('').map((char, i) => (
+                        {/* Title with letter-by-letter animation */}
+                        <h1 style={{
+                            fontFamily: "'Playfair Display', Georgia, serif",
+                            fontSize: 'clamp(3rem, 12vw, 6rem)',
+                            fontWeight: 700,
+                            margin: 0,
+                            lineHeight: 1.1,
+                            display: 'flex',
+                            justifyContent: 'center',
+                            flexWrap: 'wrap',
+                        }}>
+                            {letters.map((letter, i) => (
                                 <motion.span
                                     key={i}
-                                    className="title-char"
-                                    initial={{ opacity: 0, y: 30, rotateX: -90 }}
+                                    style={{
+                                        display: 'inline-block',
+                                        background: 'linear-gradient(135deg, #ffffff 0%, #81C784 50%, #C9A227 100%)',
+                                        WebkitBackgroundClip: 'text',
+                                        WebkitTextFillColor: 'transparent',
+                                        backgroundClip: 'text',
+                                    }}
+                                    initial={{ opacity: 0, y: 50, rotateX: -90 }}
                                     animate={{
-                                        opacity: animationPhase >= 1 ? 1 : 0,
-                                        y: animationPhase >= 1 ? 0 : 30,
-                                        rotateX: animationPhase >= 1 ? 0 : -90,
+                                        opacity: phase >= 1 ? 1 : 0,
+                                        y: phase >= 1 ? 0 : 50,
+                                        rotateX: phase >= 1 ? 0 : -90,
                                     }}
                                     transition={{
-                                        duration: 0.5,
-                                        delay: 0.8 + i * 0.08,
-                                        ease: 'easeOut'
+                                        duration: 0.4,
+                                        delay: 0.1 + i * 0.08,
+                                        ease: [0.25, 0.46, 0.45, 0.94],
                                     }}
                                 >
-                                    {char === ' ' ? '\u00A0' : char}
+                                    {letter === ' ' ? '\u00A0' : letter}
                                 </motion.span>
                             ))}
-                        </motion.h1>
+                        </h1>
 
                         {/* Tagline */}
                         <motion.p
-                            className="startup-tagline"
+                            style={{
+                                fontSize: 'clamp(0.9rem, 2.5vw, 1.3rem)',
+                                color: '#c9d4c7',
+                                marginTop: '16px',
+                                marginBottom: '8px',
+                                letterSpacing: '0.2em',
+                                textTransform: 'uppercase',
+                                fontWeight: 500,
+                            }}
                             initial={{ opacity: 0, y: 20 }}
                             animate={{
-                                opacity: animationPhase >= 2 ? 1 : 0,
-                                y: animationPhase >= 2 ? 0 : 20,
+                                opacity: phase >= 2 ? 1 : 0,
+                                y: phase >= 2 ? 0 : 20,
                             }}
-                            transition={{ duration: 0.8, delay: 0.3 }}
+                            transition={{ duration: 0.6 }}
                         >
                             Discover the Soul of Odisha
                         </motion.p>
 
-                        {/* Subtitle with typing effect */}
+                        {/* Subtitle */}
                         <motion.p
-                            className="startup-subtitle"
+                            style={{
+                                fontSize: 'clamp(0.75rem, 2vw, 0.95rem)',
+                                color: '#869184',
+                                marginBottom: '30px',
+                                letterSpacing: '0.1em',
+                            }}
                             initial={{ opacity: 0 }}
-                            animate={{ opacity: animationPhase >= 3 ? 1 : 0 }}
-                            transition={{ duration: 0.5 }}
+                            animate={{ opacity: phase >= 2 ? 1 : 0 }}
+                            transition={{ duration: 0.5, delay: 0.3 }}
                         >
-                            {'Temples • Beaches • Wildlife • Culture'.split('').map((char, i) => (
-                                <motion.span
-                                    key={i}
-                                    initial={{ opacity: 0 }}
-                                    animate={{ opacity: animationPhase >= 3 ? 1 : 0 }}
-                                    transition={{ duration: 0.02, delay: i * 0.03 }}
-                                >
-                                    {char}
-                                </motion.span>
-                            ))}
+                            Temples • Beaches • Wildlife • Culture
                         </motion.p>
 
-                        {/* Loading progress bar */}
+                        {/* Progress bar */}
                         <motion.div
-                            className="startup-loader"
+                            style={{
+                                width: '220px',
+                                display: 'flex',
+                                flexDirection: 'column',
+                                alignItems: 'center',
+                                gap: '12px',
+                            }}
                             initial={{ opacity: 0 }}
-                            animate={{ opacity: animationPhase >= 2 ? 1 : 0 }}
-                            transition={{ duration: 0.5 }}
+                            animate={{ opacity: phase >= 1 ? 1 : 0 }}
+                            transition={{ duration: 0.5, delay: 0.5 }}
                         >
-                            <div className="loader-track">
+                            <div style={{
+                                width: '100%',
+                                height: '4px',
+                                background: 'rgba(255, 255, 255, 0.1)',
+                                borderRadius: '4px',
+                                overflow: 'hidden',
+                            }}>
                                 <motion.div
-                                    className="loader-fill"
+                                    style={{
+                                        height: '100%',
+                                        background: 'linear-gradient(90deg, #4CAF50, #81C784, #C9A227)',
+                                        borderRadius: '4px',
+                                        boxShadow: '0 0 15px rgba(76, 175, 80, 0.5)',
+                                    }}
                                     initial={{ width: '0%' }}
                                     animate={{ width: '100%' }}
-                                    transition={{ duration: 7.5, ease: 'easeInOut' }}
+                                    transition={{ duration: 7, ease: 'easeInOut' }}
                                 />
                             </div>
-                            <motion.div className="loader-text-container">
-                                <motion.span
-                                    className="loader-text"
-                                    initial={{ opacity: 0 }}
-                                    animate={{ opacity: animationPhase >= 2 ? 1 : 0 }}
-                                >
-                                    {animationPhase < 3 && 'Discovering destinations...'}
-                                    {animationPhase === 3 && 'Preparing your journey...'}
-                                    {animationPhase >= 4 && 'Welcome to Odisha!'}
-                                </motion.span>
-                            </motion.div>
+                            <motion.span
+                                style={{
+                                    fontSize: '0.75rem',
+                                    color: '#869184',
+                                    letterSpacing: '0.05em',
+                                }}
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                            >
+                                {phase < 2 && 'Loading...'}
+                                {phase === 2 && 'Discovering destinations...'}
+                                {phase === 3 && 'Preparing your journey...'}
+                                {phase >= 4 && 'Welcome to Odisha!'}
+                            </motion.span>
                         </motion.div>
                     </div>
 
-                    {/* Decorative corner stamps */}
+                    {/* Decorative stamps */}
                     <motion.div
-                        className="startup-stamp stamp-odisha"
-                        initial={{ opacity: 0, scale: 0, rotate: -20 }}
-                        animate={{
-                            opacity: animationPhase >= 3 ? 0.4 : 0,
-                            scale: animationPhase >= 3 ? 1 : 0,
-                            rotate: -12,
+                        style={{
+                            position: 'absolute',
+                            bottom: '15%',
+                            left: '8%',
+                            padding: '10px 14px',
+                            border: '2px solid #9db79e',
+                            borderRadius: '6px',
+                            background: 'rgba(10, 13, 10, 0.4)',
+                            backdropFilter: 'blur(5px)',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            alignItems: 'center',
+                            transform: 'rotate(-10deg)',
                         }}
-                        transition={{ duration: 0.6, delay: 0.5, type: 'spring' }}
+                        initial={{ opacity: 0, scale: 0 }}
+                        animate={{
+                            opacity: phase >= 3 ? 0.5 : 0,
+                            scale: phase >= 3 ? 1 : 0,
+                        }}
+                        transition={{ duration: 0.5, type: 'spring' }}
                     >
-                        <div className="stamp-inner">
-                            <span className="stamp-title">ଓଡ଼ିଶା</span>
-                            <span className="stamp-subtitle">ODISHA</span>
-                            <span className="stamp-year">EST. 2024</span>
-                        </div>
+                        <span style={{ fontSize: '1rem', color: '#9db79e', fontWeight: 700 }}>ଓଡ଼ିଶା</span>
+                        <span style={{ fontSize: '0.6rem', color: '#9db79e', letterSpacing: '0.1em' }}>ODISHA</span>
                     </motion.div>
 
                     <motion.div
-                        className="startup-stamp stamp-travel"
-                        initial={{ opacity: 0, scale: 0, rotate: 15 }}
-                        animate={{
-                            opacity: animationPhase >= 3 ? 0.35 : 0,
-                            scale: animationPhase >= 3 ? 1 : 0,
-                            rotate: 8,
+                        style={{
+                            position: 'absolute',
+                            top: '18%',
+                            left: '10%',
+                            width: '70px',
+                            height: '70px',
+                            border: '2px solid #9db79e',
+                            borderRadius: '50%',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            background: 'rgba(10, 13, 10, 0.4)',
+                            backdropFilter: 'blur(5px)',
+                            transform: 'rotate(8deg)',
                         }}
-                        transition={{ duration: 0.6, delay: 0.8, type: 'spring' }}
+                        initial={{ opacity: 0, scale: 0 }}
+                        animate={{
+                            opacity: phase >= 3 ? 0.4 : 0,
+                            scale: phase >= 3 ? 1 : 0,
+                        }}
+                        transition={{ duration: 0.5, delay: 0.2, type: 'spring' }}
                     >
-                        <div className="stamp-inner stamp-circle">
-                            <span>✈ BON VOYAGE</span>
-                        </div>
+                        <span style={{ fontSize: '0.55rem', color: '#9db79e', fontWeight: 700, textAlign: 'center' }}>
+                            ✈ BON<br />VOYAGE
+                        </span>
                     </motion.div>
                 </motion.div>
             )}
